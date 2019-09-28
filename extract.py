@@ -33,6 +33,7 @@ if __name__ == "__main__":
             st = "nan"
             site_coordinate = (0, 0)
         else:
+            print("decoding", st, "....")
             location = geolocator.geocode(st + ", California", timeout=10)
             if location is None:
                 print ("////////////////////// No Search Result", st) 
