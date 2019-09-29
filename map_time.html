@@ -44,6 +44,27 @@
             padding: 10px 20px;
             background-color: white;
         }
+
+        .session {
+            margin-bottom: 20px;
+        }
+
+        .row {
+            height: 12px;
+            width: 100%;
+        }
+
+        .colors {
+            background: linear-gradient(to right,#d6d3d2,#f7f414,#f7b314,#f74914,
+                        #8c2404);
+            margin-bottom: 5px;
+        }
+
+        .label {
+            width: 15%;
+            display: inline-block;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -54,50 +75,65 @@
         <p>Data: <a href='https://dbw.parks.ca.gov/?page_id=29469'>
                 Division of Boating and Waterways</a>
         </p>
+        <div class='session'>
+            <h2>Treatment Count</h2>
+            <div class='row colors'>
+            </div>
+            <div class='row labels'>
+                <div class='label'>0</div>
+                <div class='label'>10</div>
+                <div class='label'>30</div>
+                <div class='label'>50</div>
+                <div class='label'>70</div>
+                <div class='label'>100</div>
+            </div>
+        </div>
     </div>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoianVuanVuamQiLCJhIjoiY2sxMDd3Z2c4MDMxbTNjbm11dDRnanZ6NCJ9.yXsYY7Kfgy7ix1bQLJOrRQ';
         var map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/junjunjd/ck116xaof0evr1cpmlfqdkgtz',
-            center: [-74.0059, 40.7128],
-            //center: [-121.8427, 38.0680],
-            zoom: 11
+            style: 'mapbox://styles/mapbox/light-v10',
+            //center: [37.9160, -121.3002],
+            center: [-121.8427, 38.0680],
+            //center: [-74.0059, 40.7128],
+            zoom: 9
         });
 
         // we will add more code here in the next steps
         map.on('load', function () {
             map.addLayer({
-                id: 'collisions',
+                id: 'treatment',
                 type: 'circle',
                 source: {
                     type: 'geojson',
-                    data: './collisions1601.geojson' // replace this with the url of your own geojson
+                    data: './treat_count_all.json'
+                    //data: './collisions1601.geojson' // replace this with the url of your own geojson
                 },
                 paint: {
-                    'circle-radius': [
-                        'interpolate',
+                    'circle-radius':
+                        /* 'interpolate',
                         ['linear'],
-                        ['number', ['get', 'Casualty']],
-                        0, 4,
-                        5, 24
-                    ],
+                        ['number', ['get', 'Treatment']], */
+                        10
+                    ,
                     'circle-color': [
                         'interpolate',
                         ['linear'],
-                        ['number', ['get', 'Casualty']],
-                        0, '#2DC4B2',
-                        1, '#3BB3C3',
-                        2, '#669EC4',
-                        3, '#8B88B6',
-                        4, '#A2719B',
-                        5, '#AA5E79'
+                        ['number', ['get', 'Treatment']],
+                        10, '#d6d3d2',
+                        30, '#f7f414',
+                        50, '#f7b314',
+                        70, '#f74914',
+                        100, '#8c2404',
                     ],
                     'circle-opacity': 0.8
                 }
             });
         });
     </script>
+
+
 </body>
 
 </html>
