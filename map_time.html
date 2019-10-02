@@ -55,8 +55,8 @@
         }
 
         .colors {
-            background: linear-gradient(to right,#d6d3d2,#f7f414,#f7b314,#f74914,
-                        #8c2404);
+            background: linear-gradient(to right, #ffff00, #ff8000, #ff0505,
+                    #660000);
             margin-bottom: 5px;
         }
 
@@ -76,24 +76,30 @@
                 Division of Boating and Waterways</a>
         </p>
         <div class='session'>
-            <h2>Treatment Count</h2>
+            <h2>Treatment</h2>
             <div class='row colors'>
             </div>
             <div class='row labels'>
-                <div class='label'>0</div>
+                <div class='label'>1</div>
+                <div class='label'>5</div>
                 <div class='label'>10</div>
+                <div class='label'>20</div>
                 <div class='label'>30</div>
-                <div class='label'>50</div>
-                <div class='label'>70</div>
-                <div class='label'>100</div>
+                <div class='label'>50+</div>
+                <!--                 <div class='label'>70</div>
+                <div class='label'>100</div> -->
             </div>
+        </div>
+        <div class='session' id='sliderbar'>
+            <h2>Year: <label id='active-hour'>2017</label></h2>
+            <input id='slider' class='row' type='range' min='2012' max='2017' step='1' value='2017' />
         </div>
     </div>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoianVuanVuamQiLCJhIjoiY2sxMDd3Z2c4MDMxbTNjbm11dDRnanZ6NCJ9.yXsYY7Kfgy7ix1bQLJOrRQ';
         var map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/light-v10',
+            style: 'mapbox://styles/junjunjd/ck116xaof0evr1cpmlfqdkgtz',
             //center: [37.9160, -121.3002],
             center: [-121.8427, 38.0680],
             //center: [-74.0059, 40.7128],
@@ -107,7 +113,7 @@
                 type: 'circle',
                 source: {
                     type: 'geojson',
-                    data: './treat_count_all.json'
+                    data: './treat_count_by_year.json'
                     //data: './collisions1601.geojson' // replace this with the url of your own geojson
                 },
                 paint: {
@@ -121,14 +127,29 @@
                         'interpolate',
                         ['linear'],
                         ['number', ['get', 'Treatment']],
-                        10, '#d6d3d2',
-                        30, '#f7f414',
-                        50, '#f7b314',
-                        70, '#f74914',
-                        100, '#8c2404',
+                        5, '#ffff00',
+                        10, '#ff8000',
+                        30, '#ff0505',
+                        50, '#660000',
+                        /*                         70, '#f74914',
+                                                100, '#8c2404', #24edbb*/
                     ],
                     'circle-opacity': 0.8
-                }
+
+                },
+                filter: ['==', ['number', ['get', 'Year']], 2017]
+            });
+            document.getElementById('slider').addEventListener('input', function (e) {
+                var year = parseInt(e.target.value);
+                // update the map
+                map.setFilter('treatment', ['==', ['number', ['get', 'Year']], year]);
+
+/*                 // converting 0-23 hour to AMPM format
+                var ampm = hour >= 12 ? 'PM' : 'AM';
+                var hour12 = hour % 12 ? hour % 12 : 12; */
+
+                // update text in the UI
+                document.getElementById('active-hour').innerText = year;
             });
         });
     </script>
