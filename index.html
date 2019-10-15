@@ -160,11 +160,7 @@
             document.getElementById('slider').addEventListener('input', function (e) {
                 var year = parseInt(e.target.value);
                 // update the map
-                map.setFilter('treatment', ['==', ['number', ['get', 'Year']], year]);
-
-                /*                 // converting 0-23 hour to AMPM format
-                                var ampm = hour >= 12 ? 'PM' : 'AM';
-                                var hour12 = hour % 12 ? hour % 12 : 12; */
+                map.setFilter('sites', ['==', ['number', ['get', 'Year']], year]);
 
                 // update text in the UI
                 document.getElementById('active-hour').innerText = year;
