@@ -55,7 +55,7 @@
         }
 
         .colors {
-            background: linear-gradient(to right, #ffff00, #ff8000, #ff0505,
+            background: linear-gradient(to right, #00d9ff, #55ff00, #ffff00, #ff8000, #ff0505,
                     #660000);
             margin-bottom: 5px;
         }
@@ -76,16 +76,16 @@
                 Division of Boating and Waterways</a>
         </p>
         <div class='session'>
-            <h2>Treatment</h2>
+            <h2>Treatment Count</h2>
             <div class='row colors'>
             </div>
             <div class='row labels'>
                 <div class='label'>1</div>
                 <div class='label'>5</div>
                 <div class='label'>10</div>
+                <div class='label'>15</div>
                 <div class='label'>20</div>
-                <div class='label'>30</div>
-                <div class='label'>50+</div>
+                <div class='label'>30+</div>
                 <!--                 <div class='label'>70</div>
                 <div class='label'>100</div> -->
             </div>
@@ -109,11 +109,11 @@
         // we will add more code here in the next steps
         map.on('load', function () {
             map.addLayer({
-                id: 'treatment',
+                id: 'sites',
                 type: 'circle',
                 source: {
                     type: 'geojson',
-                    data: './treat_count_by_year.json'
+                    data: './treat_count_by_year1.json'
                     //data: './collisions1601.geojson' // replace this with the url of your own geojson
                 },
                 paint: {
@@ -127,10 +127,12 @@
                         'interpolate',
                         ['linear'],
                         ['number', ['get', 'Treatment']],
-                        5, '#ffff00',
-                        10, '#ff8000',
-                        30, '#ff0505',
-                        50, '#660000',
+                        1, '#00d9ff',
+                        5, '#55ff00',
+                        10, '#ffff00',
+                        15, '#ff8000',
+                        20, '#ff0505',
+                        30, '#660000',
                         /*                         70, '#f74914',
                                                 100, '#8c2404', #24edbb*/
                     ],
@@ -139,14 +141,32 @@
                 },
                 filter: ['==', ['number', ['get', 'Year']], 2017]
             });
+
+            map.on('click', 'sites', function (e) {
+                var coordinates = e.features[0].geometry.coordinates.slice();
+                var description = e.features[0].properties.description;
+
+                // Ensure that if the map is zoomed out such that multiple
+                // copies of the feature are visible, the popup appears
+                // over the copy being pointed to.
+                while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                    coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                }
+
+                new mapboxgl.Popup()
+                    .setLngLat(coordinates)
+                    .setHTML(description)
+                    .addTo(map);
+            });
+
             document.getElementById('slider').addEventListener('input', function (e) {
                 var year = parseInt(e.target.value);
                 // update the map
                 map.setFilter('treatment', ['==', ['number', ['get', 'Year']], year]);
 
-/*                 // converting 0-23 hour to AMPM format
-                var ampm = hour >= 12 ? 'PM' : 'AM';
-                var hour12 = hour % 12 ? hour % 12 : 12; */
+                /*                 // converting 0-23 hour to AMPM format
+                                var ampm = hour >= 12 ? 'PM' : 'AM';
+                                var hour12 = hour % 12 ? hour % 12 : 12; */
 
                 // update text in the UI
                 document.getElementById('active-hour').innerText = year;
