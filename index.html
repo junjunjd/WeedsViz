@@ -7,11 +7,28 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="./css/spectre.min.css">
+    <link rel="stylesheet" href="./css/spectre-exp.min.css">
+    <link rel="stylesheet" href="./css/spectre-icons.min.css">
+
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+        }
+
+        .shadow {
+            box-shadow: 0 .25rem 1rem rgba(48,55,66,.15);
+        }
+
+        #map_container {
+            margin: 0 auto;
+            margin-bottom: 3em;
+            position: relative;
+            width: 100%;
+            height: 800px;
         }
 
         #map {
@@ -21,35 +38,20 @@
             width: 100%;
         }
 
-        h1 {
-            font-size: 20px;
-            line-height: 30px;
-        }
-
-        h2 {
-            font-size: 14px;
-            line-height: 20px;
-            margin-bottom: 10px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #2dc4b2;
-        }
-
         #console {
             position: absolute;
-            width: 240px;
+            width: 300px;
             margin: 10px;
             padding: 10px 20px;
             background-color: white;
+            z-index: 10;
         }
 
         .session {
             margin-bottom: 20px;
         }
 
-        .row {
+        .control_row {
             height: 12px;
             width: 100%;
         }
@@ -65,110 +67,206 @@
             display: inline-block;
             text-align: center;
         }
+
+        .parallax {
+            margin-bottom: 3em;
+        }
+
+        #footer {
+            margin-top: 2em;
+            color: #bcc3ce;
+        }
     </style>
 </head>
 
 <body>
-    <div id='map'></div>
-    <div id='console'>
-        <h1>Delta Region Aquatic Invasive Plant Control</h1>
-        <p>Data: <a href='https://dbw.parks.ca.gov/?page_id=29469'>
-                Division of Boating and Waterways</a>
-        </p>
-        <div class='session'>
-            <h2>Treatment Count</h2>
-            <div class='row colors'>
-            </div>
-            <div class='row labels'>
-                <div class='label'>1</div>
-                <div class='label'>5</div>
-                <div class='label'>10</div>
-                <div class='label'>15</div>
-                <div class='label'>20</div>
-                <div class='label'>30+</div>
-            </div>
+
+<div class="container">
+  <div class="columns">
+    <div class="column col-10 col-mx-auto">
+      <div class="hero hero-sm">
+        <div class="hero-body">
+          <h1>WeedsViz</h1>
+          <p>Sacramento and San Joaquin River Herbicide Usage and Water Quality</p>
+          <p>Data: <a href='https://dbw.parks.ca.gov/?page_id=29469'>Division of Boating and Waterways</a></p>
         </div>
-        <div class='session' id='sliderbar'>
-            <h2>Year: <label id='active-hour'>2017</label></h2>
-            <input id='slider' class='row' type='range' min='2012' max='2017' step='1' value='2017' />
-        </div>
+      </div>
     </div>
-    <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoianVuanVuamQiLCJhIjoiY2sxMDd3Z2c4MDMxbTNjbm11dDRnanZ6NCJ9.yXsYY7Kfgy7ix1bQLJOrRQ';
-        var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/junjunjd/ck116xaof0evr1cpmlfqdkgtz',
-            //center: [37.9160, -121.3002],
-            center: [-121.8427, 38.0680],
-            //center: [-74.0059, 40.7128],
-            zoom: 9
+  </div>
+
+  <div class="columns">
+    <div class="column col-10 col-mx-auto">
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="column col-6 col-mx-auto">
+      <div class="parallax">
+        <div class="parallax-top-left" tabindex="1"></div>
+        <div class="parallax-top-right" tabindex="2"></div>
+        <div class="parallax-bottom-left" tabindex="3"></div>
+        <div class="parallax-bottom-right" tabindex="4"></div>
+        <div class="parallax-content">
+          <div class="parallax-back">
+          <img src="https://picturepan2.github.io/spectre/img/osx-el-capitan.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="column col-10 col-mx-auto">
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="column col-6 col-mx-auto">
+      <div class="parallax">
+        <div class="parallax-top-left" tabindex="1"></div>
+        <div class="parallax-top-right" tabindex="2"></div>
+        <div class="parallax-bottom-left" tabindex="3"></div>
+        <div class="parallax-bottom-right" tabindex="4"></div>
+        <div class="parallax-content">
+          <div class="parallax-back">
+          <img src="https://picturepan2.github.io/spectre/img/osx-el-capitan.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="column col-10 col-mx-auto">
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="column col-10 col-mx-auto">
+      <div id='map_container' class="shadow">
+        <div id='console'>
+            <span>Delta Region Aquatic Invasive Plant Control</span>
+            <div class='session'>
+                <small>Treatment Count</small>
+                <div class='control_row colors'> </div>
+                <div class='control_row labels'>
+                    <div class='label'>1</div>
+                    <div class='label'>5</div>
+                    <div class='label'>10</div>
+                    <div class='label'>15</div>
+                    <div class='label'>20</div>
+                    <div class='label'>30+</div>
+                </div>
+            </div>
+            <div class='session' id='sliderbar'>
+                <span>Year: <label id='active-hour'>2017</label></span>
+                <input id='slider' class='slider control_row' type='range' min='2012' max='2017' step='1' value='2017' />
+            </div>
+        </div>
+        <div id='map'></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="column col-10 col-mx-auto">
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="divider"></div>
+    <p class="text-center">
+        Designed and built by Junjun Dong and Qingping Hou
+    </p>
+  </div>
+</div>
+
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoianVuanVuamQiLCJhIjoiY2sxMDd3Z2c4MDMxbTNjbm11dDRnanZ6NCJ9.yXsYY7Kfgy7ix1bQLJOrRQ';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/junjunjd/ck116xaof0evr1cpmlfqdkgtz',
+        //center: [37.9160, -121.3002],
+        center: [-121.8427, 38.0680],
+        //center: [-74.0059, 40.7128],
+        zoom: 9
+    });
+
+    // we will add more code here in the next steps
+    map.on('load', function () {
+        map.addLayer({
+            id: 'sites',
+            type: 'circle',
+            source: {
+                type: 'geojson',
+                data: './treat_count_by_year_popup.json'
+                //data: './collisions1601.geojson' // replace this with the url of your own geojson
+            },
+            paint: {
+                'circle-radius':
+                    /* 'interpolate',
+                    ['linear'],
+                    ['number', ['get', 'Treatment']], */
+                    10
+                ,
+                'circle-color': [
+                    'interpolate',
+                    ['linear'],
+                    ['number', ['get', 'Treatment']],
+                    1, '#00d9ff',
+                    5, '#55ff00',
+                    10, '#ffff00',
+                    15, '#ff8000',
+                    20, '#ff0505',
+                    30, '#660000',
+                    /*                         70, '#f74914',
+                                            100, '#8c2404', #24edbb*/
+                ],
+                'circle-opacity': 0.8
+
+            },
+            filter: ['==', ['number', ['get', 'Year']], 2017]
         });
 
-        // we will add more code here in the next steps
-        map.on('load', function () {
-            map.addLayer({
-                id: 'sites',
-                type: 'circle',
-                source: {
-                    type: 'geojson',
-                    data: './treat_count_by_year_popup.json'
-                    //data: './collisions1601.geojson' // replace this with the url of your own geojson
-                },
-                paint: {
-                    'circle-radius':
-                        /* 'interpolate',
-                        ['linear'],
-                        ['number', ['get', 'Treatment']], */
-                        10
-                    ,
-                    'circle-color': [
-                        'interpolate',
-                        ['linear'],
-                        ['number', ['get', 'Treatment']],
-                        1, '#00d9ff',
-                        5, '#55ff00',
-                        10, '#ffff00',
-                        15, '#ff8000',
-                        20, '#ff0505',
-                        30, '#660000',
-                        /*                         70, '#f74914',
-                                                100, '#8c2404', #24edbb*/
-                    ],
-                    'circle-opacity': 0.8
+        map.on('click', 'sites', function (e) {
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var description = e.features[0].properties.description;
 
-                },
-                filter: ['==', ['number', ['get', 'Year']], 2017]
-            });
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
 
-            map.on('click', 'sites', function (e) {
-                var coordinates = e.features[0].geometry.coordinates.slice();
-                var description = e.features[0].properties.description;
-
-                // Ensure that if the map is zoomed out such that multiple
-                // copies of the feature are visible, the popup appears
-                // over the copy being pointed to.
-                while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-                    coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-                }
-
-                new mapboxgl.Popup()
-                    .setLngLat(coordinates)
-                    .setHTML(description)
-                    .addTo(map);
-            });
-
-            document.getElementById('slider').addEventListener('input', function (e) {
-                var year = parseInt(e.target.value);
-                // update the map
-                map.setFilter('sites', ['==', ['number', ['get', 'Year']], year]);
-
-                // update text in the UI
-                document.getElementById('active-hour').innerText = year;
-            });
+            new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(map);
         });
-    </script>
 
+        document.getElementById('slider').addEventListener('input', function (e) {
+            var year = parseInt(e.target.value);
+            // update the map
+            map.setFilter('sites', ['==', ['number', ['get', 'Year']], year]);
+
+            // update text in the UI
+            document.getElementById('active-hour').innerText = year;
+        });
+    });
+</script>
 
 </body>
-
 </html>
