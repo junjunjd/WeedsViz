@@ -2,271 +2,333 @@
 <html>
 
 <head>
-    <meta charset='utf-8' />
-    <title>Delta Region Aquatic Invasive Plant Control</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+  <meta charset='utf-8' />
+  <title>Delta Region Aquatic Invasive Plant Control</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
 
-    <link rel="stylesheet" href="./css/spectre.min.css">
-    <link rel="stylesheet" href="./css/spectre-exp.min.css">
-    <link rel="stylesheet" href="./css/spectre-icons.min.css">
+  <link rel="stylesheet" href="./css/spectre.min.css">
+  <link rel="stylesheet" href="./css/spectre-exp.min.css">
+  <link rel="stylesheet" href="./css/spectre-icons.min.css">
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
-        }
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    }
 
-        .shadow {
-            box-shadow: 0 .25rem 1rem rgba(48,55,66,.15);
-        }
+    .shadow {
+      box-shadow: 0 .25rem 1rem rgba(48, 55, 66, .15);
+    }
 
-        #map_container {
-            margin: 0 auto;
-            margin-bottom: 3em;
-            position: relative;
-            width: 100%;
-            height: 800px;
-        }
+    #map_container {
+      margin: 0 auto;
+      margin-bottom: 3em;
+      position: relative;
+      width: 100%;
+      height: 800px;
+    }
 
-        #map {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-        }
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
 
-        #console {
-            position: absolute;
-            width: 300px;
-            margin: 10px;
-            padding: 10px 20px;
-            background-color: white;
-            z-index: 10;
-        }
+    #console {
+      position: absolute;
+      width: 300px;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: white;
+      z-index: 10;
+    }
 
-        .session {
-            margin-bottom: 20px;
-        }
+    .session {
+      margin-bottom: 20px;
+    }
 
-        .control_row {
-            height: 12px;
-            width: 100%;
-        }
+    .control_row {
+      height: 12px;
+      width: 100%;
+    }
 
-        .colors {
-            background: linear-gradient(to right, #00d9ff, #55ff00, #ffff00, #ff8000, #ff0505,
-                    #660000);
-            margin-bottom: 5px;
-        }
+    .colors {
+      background: linear-gradient(to right, #55ff00, #ffff00, #ff8000, #ff0505,
+          #660000);
+      margin-bottom: 5px;
+    }
 
-        .label {
-            width: 15%;
-            display: inline-block;
-            text-align: center;
-        }
+    .label {
+      width: 15%;
+      display: inline-block;
+      text-align: center;
+    }
 
-        .parallax {
-            margin-bottom: 3em;
-        }
+    .parallax {
+      margin-bottom: 3em;
+    }
 
-        #footer {
-            margin-top: 2em;
-            color: #bcc3ce;
-        }
-    </style>
+    #footer {
+      margin-top: 2em;
+      color: #bcc3ce;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="container">
-  <div class="columns">
-    <div class="column col-10 col-mx-auto">
-      <div class="hero hero-sm">
-        <div class="hero-body">
-          <h1>WeedsViz</h1>
-          <p>Sacramento and San Joaquin River Herbicide Usage and Water Quality</p>
-          <p>Data: <a href='https://dbw.parks.ca.gov/?page_id=29469'>Division of Boating and Waterways</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="columns">
-    <div class="column col-10 col-mx-auto">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
-  </div>
-
-  <div class="columns">
-    <div class="column col-6 col-mx-auto">
-      <div class="parallax">
-        <div class="parallax-top-left" tabindex="1"></div>
-        <div class="parallax-top-right" tabindex="2"></div>
-        <div class="parallax-bottom-left" tabindex="3"></div>
-        <div class="parallax-bottom-right" tabindex="4"></div>
-        <div class="parallax-content">
-          <div class="parallax-back">
-          <img src="https://picturepan2.github.io/spectre/img/osx-el-capitan.jpg" class="img-responsive">
+  <div class="container">
+    <div class="columns">
+      <div class="column col-10 col-mx-auto">
+        <div class="hero hero-sm">
+          <div class="hero-body">
+            <h1>WeedsViz</h1>
+            <p>Sacramento and San Joaquin River Herbicide Usage and Water Quality</p>
+            <p>Data: <a href='https://dbw.parks.ca.gov/?page_id=29469'>Division of Boating and Waterways (DBW)</a></p>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="columns">
-    <div class="column col-10 col-mx-auto">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
-  </div>
-
-  <div class="columns">
-    <div class="column col-6 col-mx-auto">
-      <div class="parallax">
-        <div class="parallax-top-left" tabindex="1"></div>
-        <div class="parallax-top-right" tabindex="2"></div>
-        <div class="parallax-bottom-left" tabindex="3"></div>
-        <div class="parallax-bottom-right" tabindex="4"></div>
-        <div class="parallax-content">
-          <div class="parallax-back">
-          <img src="https://picturepan2.github.io/spectre/img/osx-el-capitan.jpg" class="img-responsive">
+    <div class="columns">
+      <div class="column col-6 col-mx-auto">
+        <div class="parallax">
+          <div class="parallax-top-left" tabindex="1"></div>
+          <div class="parallax-top-right" tabindex="2"></div>
+          <div class="parallax-bottom-left" tabindex="3"></div>
+          <div class="parallax-bottom-right" tabindex="4"></div>
+          <div class="parallax-content">
+            <div class="parallax-back">
+              <img src="https://dbw.parks.ca.gov/pages/28702/images/2%20DisplaceNativeSpecies%20(bold).png">
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="columns">
-    <div class="column col-10 col-mx-auto">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    <div class="columns">
+      <div class="column col-10 col-mx-auto">
+        <p align="right">
+          (Photo credit to Division of Boating and Waterways)
+        </p>
+        <p>
+          We developed a user interactive map tool to visualize DBW's daily herbicide application logs. The map
+          keeps track of how often a particular site was treated, what herbicide was used and how did treatment change
+          from year to year.
+        </p>
+      </div>
     </div>
-  </div>
 
-  <div class="columns">
-    <div class="column col-10 col-mx-auto">
-      <div id='map_container' class="shadow">
-        <div id='console'>
+
+
+    <div class="columns">
+      <div class="column col-10 col-mx-auto">
+        <div id='map_container' class="shadow">
+          <div id='console'>
             <span>Delta Region Aquatic Invasive Plant Control</span>
             <div class='session'>
-                <small>Treatment Count</small>
-                <div class='control_row colors'> </div>
-                <div class='control_row labels'>
-                    <div class='label'>1</div>
-                    <div class='label'>5</div>
-                    <div class='label'>10</div>
-                    <div class='label'>15</div>
-                    <div class='label'>20</div>
-                    <div class='label'>30+</div>
-                </div>
+              <small>Treatment Count</small>
+              <div class='control_row colors'> </div>
+              <div class='control_row labels'>
+                <div class='label'>1</div>
+                <div class='label'>5</div>
+                <div class='label'>10</div>
+                <div class='label'>15</div>
+                <div class='label'>20</div>
+                <div class='label'>30+</div>
+              </div>
             </div>
             <div class='session' id='sliderbar'>
-                <span>Year: <label id='active-hour'>2017</label></span>
-                <input id='slider' class='slider control_row' type='range' min='2012' max='2017' step='1' value='2017' />
+              <span>Year: <label id='active-hour'>2017</label></span>
+              <input id='slider' class='slider control_row' type='range' min='2012' max='2017' step='1' value='2017' />
             </div>
+          </div>
+          <div id='map'></div>
         </div>
-        <div id='map'></div>
       </div>
     </div>
-  </div>
 
-  <div class="columns">
-    <div class="column col-10 col-mx-auto">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class="columns">
+      <div class="column col-6 col-mx-auto">
+        <div class="parallax">
+          <div class="parallax-top-left" tabindex="1"></div>
+          <div class="parallax-top-right" tabindex="2"></div>
+          <div class="parallax-bottom-left" tabindex="3"></div>
+          <div class="parallax-bottom-right" tabindex="4"></div>
+          <div class="parallax-content">
+            <div class="parallax-back">
+              <img src="https://ucanr.edu/sites/DRAAWP/files/261842display.jpg" class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="columns">
+      <div class="column col-10 col-mx-auto">
+        <p align="right">
+          (Photo credit to University of California, Division of Agriculture and Natural Resources,
+          Delta Region Areawide Aquatic Weed Project)
+        </p>
+        <p><a href='https://oehha.ca.gov/water/public-health-goals-phgs'>California Office of Environmental Health
+            Hazard Assessment (OEHHA)</a>
+          has established Public Health Goals (PHGs) for the level of chemical contaminants in drinking water. DBW
+          monitors Glyphosate and 2,4-D residue on samples sites.
+        </p>
+        <head>
+            <style>
+                table {
+                    font-family: arial, sans-serif;
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+        
+                td,
+                th {
+                    border: 1px solid #dddddd;
+                    text-align: left;
+                    padding: 8px;
+                }
+        
+                tr:nth-child(even) {
+                    background-color: #dddddd;
+                }
+            </style>
+        </head>
+        <h6>DBW Herbicide Residue Monitoring Results</h6>
+
+        <table>
+          <tr>
+            <th>Site</th>
+            <th>Herbicide</th>
+            <th>Date Applied</th>
+            <th>Gallons Applied</th>
+            <th>Residue after one Week (ppb)</th>
+          </tr>
+          <tr>
+            <td>Site 278: Cache Slough, Hass Slough</td>
+            <td>Glyphosate</td>
+            <td>6/21/2017</td>
+            <td>2</td>
+            <td>0.63</td>
+          </tr>
+          <tr>
+            <td>Site 279: Hass Slough, Duck Slough</td>
+            <td>Glyphosate</td>
+            <td>6/21/2017</td>
+            <td>1.5</td>
+            <td>1.01</td>
+          </tr>
+          <tr>
+            <td>Site 6: French Camp Slough</td>
+            <td>2,4-D</td>
+            <td>7/5/2017</td>
+            <td>1.25</td>
+            <td>0.55</td>
+          </tr>
+          <tr>
+              <td>Site 9: Burns Cutoff</td>
+              <td>2,4-D</td>
+              <td>7/5/2017</td>
+              <td>1.25</td>
+              <td>0.76</td>
+            </tr>
+        </table>
+
+
+      </div>
+    </div>
+
+
+
+    <div id="footer">
+      <div class="divider"></div>
+      <p class="text-center">
+        Designed and built by Junjun Dong and Qingping Hou
       </p>
     </div>
   </div>
 
-  <div id="footer">
-    <div class="divider"></div>
-    <p class="text-center">
-        Designed and built by Junjun Dong and Qingping Hou
-    </p>
-  </div>
-</div>
-
-<script>
+  <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoianVuanVuamQiLCJhIjoiY2sxMDd3Z2c4MDMxbTNjbm11dDRnanZ6NCJ9.yXsYY7Kfgy7ix1bQLJOrRQ';
     var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/junjunjd/ck116xaof0evr1cpmlfqdkgtz',
-        //center: [37.9160, -121.3002],
-        center: [-121.8427, 38.0680],
-        //center: [-74.0059, 40.7128],
-        zoom: 9
+      container: 'map',
+      style: 'mapbox://styles/junjunjd/ck116xaof0evr1cpmlfqdkgtz',
+      //center: [37.9160, -121.3002],
+      center: [-121.8427, 38.0680],
+      //center: [-74.0059, 40.7128],
+      zoom: 9
     });
 
     // we will add more code here in the next steps
     map.on('load', function () {
-        map.addLayer({
-            id: 'sites',
-            type: 'circle',
-            source: {
-                type: 'geojson',
-                data: './treat_count_by_year_popup.json'
-                //data: './collisions1601.geojson' // replace this with the url of your own geojson
-            },
-            paint: {
-                'circle-radius':
-                    /* 'interpolate',
-                    ['linear'],
-                    ['number', ['get', 'Treatment']], */
-                    10
-                ,
-                'circle-color': [
-                    'interpolate',
-                    ['linear'],
-                    ['number', ['get', 'Treatment']],
-                    1, '#00d9ff',
-                    5, '#55ff00',
-                    10, '#ffff00',
-                    15, '#ff8000',
-                    20, '#ff0505',
-                    30, '#660000',
-                    /*                         70, '#f74914',
-                                            100, '#8c2404', #24edbb*/
-                ],
-                'circle-opacity': 0.8
+      map.addLayer({
+        id: 'sites',
+        type: 'circle',
+        source: {
+          type: 'geojson',
+          data: './treat_count_by_year_popup.json'
+          //data: './collisions1601.geojson' // replace this with the url of your own geojson
+        },
+        paint: {
+          'circle-radius':
+            /* 'interpolate',
+            ['linear'],
+            ['number', ['get', 'Treatment']], */
+            10
+          ,
+          'circle-color': [
+            'interpolate',
+            ['linear'],
+            ['number', ['get', 'Treatment']],
+            3, '#55ff00',
+            5, '#ffff00',
+            10, '#ff8000',
+            15, '#ff0505',
+            20, '#660000',
+            /*                         70, '#f74914',
+                                    100, '#8c2404', #24edbb*/
+          ],
+          'circle-opacity': 0.8
 
-            },
-            filter: ['==', ['number', ['get', 'Year']], 2017]
-        });
+        },
+        filter: ['==', ['number', ['get', 'Year']], 2017]
+      });
 
-        map.on('click', 'sites', function (e) {
-            var coordinates = e.features[0].geometry.coordinates.slice();
-            var description = e.features[0].properties.description;
+      map.on('click', 'sites', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.description;
 
-            // Ensure that if the map is zoomed out such that multiple
-            // copies of the feature are visible, the popup appears
-            // over the copy being pointed to.
-            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-            }
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
 
-            new mapboxgl.Popup()
-                .setLngLat(coordinates)
-                .setHTML(description)
-                .addTo(map);
-        });
+        new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(description)
+          .addTo(map);
+      });
 
-        document.getElementById('slider').addEventListener('input', function (e) {
-            var year = parseInt(e.target.value);
-            // update the map
-            map.setFilter('sites', ['==', ['number', ['get', 'Year']], year]);
+      document.getElementById('slider').addEventListener('input', function (e) {
+        var year = parseInt(e.target.value);
+        // update the map
+        map.setFilter('sites', ['==', ['number', ['get', 'Year']], year]);
 
-            // update text in the UI
-            document.getElementById('active-hour').innerText = year;
-        });
+        // update text in the UI
+        document.getElementById('active-hour').innerText = year;
+      });
     });
-</script>
+  </script>
 
 </body>
+
 </html>
