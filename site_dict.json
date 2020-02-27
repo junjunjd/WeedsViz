@@ -1,562 +1,2942 @@
 {
- "French Camp Slough, Walker Slough": [
-  37.9160359,
-  -121.3002235
- ],
- "Calaveras River, Morman Slough, San Joaquin River, Smith Canal, Stockton Deep Water Channel and Port": [
-  37.9668678,
-  -121.3677259
- ],
- "Sacramento River Deep Water Ship Channel, Northern Sherman Lake": [
-  38.4040153,
-  -121.6148297
- ],
- "Sycamore Slough, Brack Tract, Terminous Tract": [
-  38.1398959,
-  -121.4802518
- ],
- "Lost Slough, Consumnes River": [
-  38.2685538,
-  -121.4389591
- ],
- "Fourteen Mile Slough": [
-  38.0252968,
-  -121.3961484
- ],
- "Disappointment Slough": [
-  38.0407546,
-  -121.4460616
- ],
- "White Slough": [
-  38.0460402,
-  -121.4007205
- ],
- "Honker Cut": [
-  38.0640873,
-  -121.458562
- ],
- "Old River": [
-  37.9221582,
-  -121.5542427
- ],
- "Big Break, Southwest Big Break": [
-  38.010852,
-  -121.7290251
- ],
- "Big Break, Northwest Big Break, Big Break Marina": [
-  38.011463,
-  -121.732961
- ],
- "South Mokelumne River, Staten Island, Canal Ranch": [
-  38.1326959,
-  -121.5682864
- ],
- "Contra Costa Canal, Rock Slough, Sand Mound Slough": [
-  38.0115637,
-  -121.6165436
- ],
- "Snodgrass Slough, Southern Pacific Ditch, Alfalfa Plant Road": [
-  38.2678238,
-  -121.5010662
- ],
- "Snodgrass Slough, South Stone Lake, Lambert Road": [
-  38.3445968,
-  -121.4977433
- ],
- "Middle River": [
-  37.9041172,
-  -121.4967672
- ],
- "Railroad Cut": [
-  38.8779771,
-  -121.0860519
- ],
- "Piper Slough, False River, Sandmound Slough": [
-  38.0467395,
-  -121.6381141
- ],
- "Bear Creek, Pixley Slough": [
-  38.0443657,
-  -121.3868937
- ],
- "Cabin Slough, Sherman Lake, East Cabin Slough": [
-  36.778261,
-  -119.4179324
- ],
- "Sherman Lake, Eastern Central Sherman Island WMA": [
-  38.0402332,
-  -121.7964688
- ],
- "Delta Mendota Canal, River's End": [
-  37.8088621,
-  -121.5590301
- ],
- "Big Break, Little Big Break, Lauritzen Yacht Harbor, Antioch Bridge": [
-  38.0165653,
-  -121.747606
- ],
- "Islemouth Slough, South Mokelumne River, Westgate Landing, Staten Island, Terminous Tract": [
-  38.1233598,
-  -121.4953271
- ],
- "South Mokelumne River, Potato Slough, Staten Island, Bouldin Island": [
-  38.1326959,
-  -121.5682864
- ],
- "Little Potato Slough": [
-  38.0883198,
-  -121.5273251
- ],
- "Potato Slough": [
-  38.083253,
-  -121.5427302
- ],
- "Dutch Slough, Emerson Slough": [
-  38.0128016,
-  -121.6543339
- ],
- "Seven Mile Slough, Jackson Slough, Tomato Slough, Brannan Island, Twitchell Island": [
-  38.1102102,
-  -121.696818
- ],
- "Whiskey Slough": [
-  37.9419166,
-  -121.4391431
- ],
- "San Joaquin River, West Island": [
-  36.906754,
-  -119.7571261
- ],
- "Cabin Slough, Sherman Lake, West Cabin Slough": [
-  36.778261,
-  -119.4179324
- ],
- "Little Connection Slough": [
-  38.0521211,
-  -121.50109
- ],
- "South Mokelumne River, North Fork of Mokelumne River, Staten Island, Bouldin Island": [
-  38.1097595,
-  -121.5749849
- ],
- "Donlon Island, Mayberry Slough, Sherman Lake": [
-  38.0463121,
-  -121.7654509
- ],
- "Mayberry Cut, Sherman Lake": [
-  38.0326984,
-  -121.7843998
- ],
- "Mosher Slough": [
-  38.0283496,
-  -121.3333668
- ],
- "Snodgrass Slough, The Meadows Slough, Southern Pacific Ditch": [
-  38.2634507,
-  -121.5095218
- ],
- "Broad Slough, Sacramento River Deep Water Ship Channel, San Joaquin River, Sherman Lake": [
-  38.0480247,
-  -121.8405853
- ],
- "Broad Slough, San Joaquin River, Sherman Lake, Cabin Slough": [
-  38.0679749,
-  -121.8427354
- ],
- "Snodgrass Slough, The Meadows Slough, Railroad Cut": [
-  38.2634507,
-  -121.5095218
- ],
- "Buckley Cove, San Joaquin River, Stockton Deep Water Channel": [
-  38.0560318,
-  -121.5260632
- ],
- "Black Slough, Blackslough Landing, Fourteen Mile Slough, San Joaquin River": [
-  37.9807564,
-  -121.4207827
- ],
- "Mandeville Cut, Mandeville Reach, San Joaquin River, Stockton Deep Water Channel, Venice Cut": [
-  37.9577016,
-  -121.2907796
- ],
- "Discovery Bay, Indian Slough": [
-  37.9180853,
-  -121.5794541
- ],
- "Heypress Reach, Hog Island Cut, San Joaquin River, Stockton Deep Water Channel, Twentyone Mile Cut": [
-  38.0065891,
-  -121.4532838
- ],
- "Bishop Cut": [
-  38.0640874,
-  -121.4182834
- ],
- "Taylor Slough, South Taylor Slough, Caliente Harbor, Anchor Marina": [
-  38.0307075,
-  -121.6669642
- ],
- "Taylor Slough, North Taylor Slough, Mariner Cove Marina, Jackass Point": [
-  36.778261,
-  -119.4179324
- ],
- "Turner Cut, Empire Cut, Whiskey Slough, San Joaquin River, Stockton Deep Water Channel": [
-  37.9825554,
-  -121.472997
- ],
- "San Joaquin River, Stockton Deep Water Channel, Headreach Island": [
-  38.0560318,
-  -121.5260632
- ],
- "Mokelumne River, Andrus Island, Willow Berm, Perrys Boat Harbor and Drydock": [
-  38.1242441,
-  -121.5830135
- ],
- "Connection Slough, Middle River": [
-  38.020445,
-  -121.5271873
- ],
- "North Canal, Victoria Canal": [
-  37.91325800000001,
-  -121.5424505
- ],
- "Empire Cut, Middle River, Mildred Island": [
-  39.3342744,
-  -76.4394056
- ],
- "Upland Canal, White Slough": [
-  38.0460402,
-  -121.4007205
- ],
- "Franks Tract, Little Franks Tract, Southwest Franks Tract": [
-  38.0499204,
-  -121.6510646
- ],
- "Columbia Cut, San Joaquin River, Stockton Deep Water Channel, Upper Whiskey Slough, Tinsley Island": [
-  38.0377747,
-  -121.4945308
- ],
- "San Joaquin River, Hayes Reach, Old River": [
-  38.0751976,
-  -121.5710638
- ],
- "Sherman Lake, South Sherman Island, San Joaquin River": [
-  38.0402332,
-  -121.7964688
- ],
- "Sacramento River, Sherman Lake, Mayberry Slough, Sandy Beach Park": [
-  38.0463121,
-  -121.7654509
- ],
- "North Victoria Canal, Woodward Canal": [
-  37.9138136,
-  -121.5418949
- ],
- "Middle River, Mildred Island": [
-  39.3342744,
-  -76.4394056
- ],
- "Connection Slough, Middle River, Mildred Island": [
-  39.3342744,
-  -76.4394056
- ],
- "Roosevelt Cut, Sand Mound Slough": [
-  38.0182549,
-  -121.6035638
- ],
- "Fisherman's Cut, False River, San Joaquin River": [
-  38.069642,
-  -121.6480091
- ],
- "Empire Cut, Mildred Island": [
-  37.9716273,
-  -121.5014912
- ],
- "San Joaquin River, Mossdale": [
-  37.78465,
-  -121.3085543
- ],
- "San Joaquin River, San Joaquin River, Dos Reis County Park Boat Launch Facility": [
-  37.8313168,
-  -121.3106683
- ],
- "San Joaquin River": [
-  37.2813001,
-  -120.8272698
- ],
- "Connection Slough, Holland Cut, Little Mandeville Island, Rhode Island": [
-  38.0149218,
-  -121.5813413
- ],
- "Holland Cut, Sheep Slough": [
-  38.0149218,
-  -121.5813413
- ],
- "Dutch Slough, Jersey Island": [
-  38.0128016,
-  -121.6543339
- ],
- "Dutch Slough, West Dutch Slough": [
-  38.0128016,
-  -121.6543339
- ],
- "San Joaquin River,  Andrus Island, Seven Mile Slough, Mokelumne River": [
-  38.1097595,
-  -121.5749849
- ],
- "Telephone Cut": [
-  38.0726982,
-  -121.3991164
- ],
- "Old River, Paradise Cut": [
-  37.7826358,
-  -121.3620713
- ],
- "Old River, Paradise Cut, Salmon Slough": [
-  37.7826358,
-  -121.3620713
- ],
- "Sugar Slough, Tom Paine Slough": [
-  37.76500300000001,
-  -121.3438345
- ],
- "Latham Slough, Middle River, Mildred Island": [
-  37.9845981,
-  -121.5166597
- ],
- "Fabian & Bell Canal, Grant Line Canal": [
-  37.819094,
-  -121.4824477
- ],
- "Grant Line Canal, Salmon Slough": [
-  37.8127052,
-  -121.416335
- ],
- "Connection Slough, Little Mandeville Island, Bacon Island": [
-  38.020445,
-  -121.5271873
- ],
- "Burns Cutoff": [
-  37.9624236,
-  -121.3757815
- ],
- "Old River, False River, San Joaquin River, Webb Tract": [
-  38.0566258,
-  -121.6603934
- ],
- "San Joaquin River, Twitchell Island": [
-  38.1096407,
-  -121.6485651
- ],
- "Gallagher Slough, San Joaquin River, Sherman Island": [
-  38.0561783,
-  -121.7007306
- ],
- "Werner Dredger Cut": [
-  37.9313129,
-  -121.6085628
- ],
- "Rock Slough": [
-  37.9754785,
-  -121.5807852
- ],
- "San Joaquin River, Kimball Island": [
-  38.0271429,
-  -121.816623
- ],
- "Sherman Lake, Central Sherman Island WMA": [
-  38.0402332,
-  -121.7964688
- ],
- "Horseshoe Bend, Sacramento River, Three Mile Slough, Sherman Island": [
-  38.0593642,
-  -121.7332878
- ],
- "Decker Island, Horseshoe Bend, Sacramento River": [
-  38.0835302,
-  -121.7152324
- ],
- "Big Break, Marsh Creek": [
-  38.010852,
-  -121.7290251
- ],
- "San Joaquin River, Antioch Bridge, Sherman Island": [
-  38.0246431,
-  -121.7505098
- ],
- "Paradise Cut": [
-  37.7826358,
-  -121.3620713
- ],
- "South Mokelumne River, Staten Island, Brack Tract": [
-  38.1326959,
-  -121.5682864
- ],
- "Hog Slough, Brack Tract, Canal Ranch": [
-  38.1688934,
-  -121.4709695
- ],
- "Delta Cross Channel, Dead Horse Cut, North Mokelumne River, Snodgrass Slough": [
-  38.2442493,
-  -121.5034836
- ],
- "Old River, Eucalyptus Island": [
-  37.8596482,
-  -121.5707834
- ],
- "California Aqueduct, Clifton Court Forebay, Italian Slough": [
-  37.8489766,
-  -121.5886112
- ],
- "Old River, West Canal": [
-  37.9221582,
-  -121.5542427
- ],
- "Old River, Quimby Island": [
-  37.9221582,
-  -121.5542427
- ],
- "Consumnes River, Mokelumne River": [
-  38.1097595,
-  -121.5749849
- ],
- "South Mokelumne River, Staten Island, New Hope Tract": [
-  38.1326959,
-  -121.5682864
- ],
- "Mokelumne River, North Mokelumne River, Broad Slough, Tyler Island": [
-  38.1097595,
-  -121.5749849
- ],
- "North Mokelumne River, Tyler Island, Tyler Island Road": [
-  38.1729725,
-  -121.5474531
- ],
- "North Mokelumne River, Tyler Island, Tyler Island Road, Walnut Grove-Thornton Road": [
-  38.1819653,
-  -121.5698865
- ],
- "Steamboat Slough": [
-  38.2418463,
-  -121.6031584
- ],
- "Cache Slough, Prospect Slough, Sacramento River Deep Water Ship Channel": [
-  38.1788051,
-  -121.6666216
- ],
- "Cache Slough, Little Hastings Tract": [
-  38.1788051,
-  -121.6666216
- ],
- "Cache Slough": [
-  38.1788051,
-  -121.6666216
- ],
- "Sacramento River, Sacramento River Deep Water Ship Channel": [
-  38.4040153,
-  -121.6148297
- ],
- "Cache Slough, Sacramento River Deep Water Ship Channel": [
-  38.1788051,
-  -121.6666216
- ],
- "Miner Slough, Prospect Island": [
-  38.2665229,
-  -121.6418449
- ],
- "Beaver Slough, Canal Ranch, New Hope Tract": [
-  38.2031903,
-  -121.4593656
- ],
- "Morgan's Landing, Sacramento River": [
-  38.5792778,
-  -121.4900073
- ],
- "Liberty Cut, Toe Drain": [
-  38.4385199,
-  -121.6041235
- ],
- "Sacramento River": [
-  39.6752077,
-  -121.9738321
- ],
- "Miner Slough": [
-  38.2665229,
-  -121.6418449
- ],
- "Old River, East Franks Tract": [
-  38.03335320000001,
-  -121.6222601
- ],
- "False River, North Franks Tract": [
-  38.03335320000001,
-  -121.6222601
- ],
- "Franks Tract, Central Franks Tract": [
-  38.03335320000001,
-  -121.6222601
- ],
- "Franks Tract, Northeast Franks Tract": [
-  38.03335320000001,
-  -121.6222601
- ],
- "Georgiana Slough": [
-  38.1300635,
-  -121.577728
- ],
- "Liberty Island, Sacramento River Deep Water Ship Channel, Toe Drain": [
-  40.6895453,
-  -74.0449292
- ],
- "Lindsey Slough, Wright Cut": [
-  38.2609011,
-  -121.7600567
- ],
- "Lindsey Slough": [
-  38.2609011,
-  -121.7600567
- ],
- "Stone Lakes, Lambert Road, Kestrel Lake Road": [
-  38.370946,
-  -121.4955091
- ],
- "nan": [
-  0,
-  0
- ],
- "Snodgrass Slough, Russell Road, Herzog Road": [
-  38.2678238,
-  -121.5010662
- ],
- "Sacramento River, Sacramento River Deep Water Ship Channel, Rio Vista": [
-  38.4040153,
-  -121.6148297
- ],
- "Sacramento River, West Brannan Island, Helen Madere Memorial Bridge": [
-  38.1584561,
-  -121.6830163
- ],
- "Delta Coves": [
-  38.0122329,
-  -121.6322269
- ],
- "Sacramento River, Sacramento River Deep Water Ship Channel, Toe Drain, Port of Sacramento": [
-  38.4040153,
-  -121.6148297
- ],
- "Cache Slough, Ulatis Creek": [
-  38.1788051,
-  -121.6666216
- ],
- "Hass Slough": [
-  38.3119793,
-  -121.7359924
- ],
- "Barker Slough, Calhoun Cut, Lindsey Slough": [
-  38.2600834,
-  -121.8054893
- ],
- "Cache Slough, Hass Slough": [
-  38.1788051,
-  -121.6666216
- ]
+ "1": {
+  "coordinates": [
+   -121.3085543,
+   37.78465
+  ],
+  "site_Name": "San Joaquin River, Mossdale"
+ },
+ "2": {
+  "coordinates": [
+   -121.3106683,
+   37.8313168
+  ],
+  "site_Name": "San Joaquin River, Dos Reis County Park Boat Launch Facility"
+ },
+ "3": {
+  "coordinates": [
+   -121.3007084,
+   37.8481495
+  ],
+  "site_Name": "San Joaquin River, Frewart Road"
+ },
+ "4": {
+  "coordinates": [
+   -121.3730274,
+   37.8770764
+  ],
+  "site_Name": "San Joaquin River, Howard Road"
+ },
+ "5": {
+  "coordinates": [
+   -121.3034673,
+   37.9054728
+  ],
+  "site_Name": "San Joaquin River, Weston Ranch"
+ },
+ "6": {
+  "coordinates": [
+   -121.3002235,
+   37.9160359
+  ],
+  "site_Name": "French Camp Slough, Walker Slough"
+ },
+ "7": {
+  "coordinates": [
+   -121.3424611,
+   37.9431494
+  ],
+  "site_Name": "San Joaquin River, Port of Stockton, Highway 4, Forrestal Village"
+ },
+ "8": {
+  "coordinates": [
+   -121.2657789,
+   37.95020179999999
+  ],
+  "site_Name": "Morman Slough, San Joaquin River, Stockton Deep Water Channel, Port of Stockton, Calaveras River"
+ },
+ "9": {
+  "coordinates": [
+   -121.3757815,
+   37.9624236
+  ],
+  "site_Name": "Burns Cutoff, San Joaquin River, Stockton Deep Water Channel, Calaveras River"
+ },
+ "10": {
+  "coordinates": [
+   -121.5260632,
+   38.0560318
+  ],
+  "site_Name": "Buckley Cove, San Joaquin River, Stockton Deep Water Channel"
+ },
+ "11": {
+  "coordinates": [
+   -121.4207827,
+   37.9807564
+  ],
+  "site_Name": "Black Slough, Blackslough Landing, Fourteen Mile Slough, San Joaquin River"
+ },
+ "12": {
+  "coordinates": [
+   -121.472997,
+   37.9825554
+  ],
+  "site_Name": "Turner Cut, Empire Cut, Whiskey Slough, San Joaquin River, Stockton Deep Water Channel"
+ },
+ "13": {
+  "coordinates": [
+   -121.4532838,
+   38.0065891
+  ],
+  "site_Name": "Heypress Reach, Hog Island Cut, San Joaquin River, Stockton Deep Water Channel, Twentyone Mile Cut"
+ },
+ "14": {
+  "coordinates": [
+   -121.5260632,
+   38.0560318
+  ],
+  "site_Name": "San Joaquin River, Stockton Deep Water Channel, Headreach Island"
+ },
+ "15": {
+  "coordinates": [
+   -121.4945308,
+   38.0377747
+  ],
+  "site_Name": "Columbia Cut, San Joaquin River, Stockton Deep Water Channel, Upper Whiskey Slough, Tinsley Island"
+ },
+ "16": {
+  "coordinates": [
+   -90.06563109999999,
+   30.35825059999999
+  ],
+  "site_Name": "Mandeville Cut, Mandeville Reach, San Joaquin River, Stockton Deep Water Channel, Venice Cut"
+ },
+ "17": {
+  "coordinates": [
+   -121.5427302,
+   38.083253
+  ],
+  "site_Name": "San Joaquin River, Hayes Reach, Potato Slough"
+ },
+ "18": {
+  "coordinates": [
+   -121.7608309,
+   38.1835259
+  ],
+  "site_Name": "Mokelumne River, Bouldin Island, Highway 12"
+ },
+ "19": {
+  "coordinates": [
+   -121.5749849,
+   38.1097595
+  ],
+  "site_Name": "San Joaquin River, Webb Tract, Mokelumne River, Webb Reach"
+ },
+ "20": {
+  "coordinates": [
+   -121.696818,
+   38.1102102
+  ],
+  "site_Name": "Seven Mile Slough, Jackson Slough, Tomato Slough, Brannan Island, Twitchell Island"
+ },
+ "21": {
+  "coordinates": [
+   -121.6480091,
+   38.069642
+  ],
+  "site_Name": "San Joaquin River, Fishermans Cut, Bradford Island, Webb Tract"
+ },
+ "22": {
+  "coordinates": [
+   -121.7332878,
+   38.0593642
+  ],
+  "site_Name": "Horseshoe Bend, Sacramento River, Three Mile Slough, Sherman Island"
+ },
+ "23": {
+  "coordinates": [
+   -121.685787,
+   38.0363096
+  ],
+  "site_Name": "False River, San Joaquin River, Bradford Island, Jersey Island"
+ },
+ "24": {
+  "coordinates": [
+   -121.685787,
+   38.0363096
+  ],
+  "site_Name": "San Joaquin River, Gallagher Slough, Sherman Island, Jersey Island"
+ },
+ "25": {
+  "coordinates": [
+   -120.2769428,
+   36.3051363
+  ],
+  "site_Name": "Fourteen Mile Slough, East of Interstate 5"
+ },
+ "26": {
+  "coordinates": [
+   -121.3545932,
+   38.0133022
+  ],
+  "site_Name": "Fourteen Mile Slough, Five Mile Slough"
+ },
+ "28": {
+  "coordinates": [
+   -120.32333,
+   38.70972
+  ],
+  "site_Name": "Fourteen Mile Slough, Morrison Island"
+ },
+ "29": {
+  "coordinates": [
+   -121.4460616,
+   38.0407546
+  ],
+  "site_Name": "Fourteen Mile Slough, Disappointment Slough"
+ },
+ "30": {
+  "coordinates": [
+   -121.3333668,
+   38.0283496
+  ],
+  "site_Name": "Mosher Slough, Bear Creek, Pixley Slough"
+ },
+ "31": {
+  "coordinates": [
+   -121.3868937,
+   38.0443657
+  ],
+  "site_Name": "Bear Creek, Pixley Slough"
+ },
+ "32": {
+  "coordinates": [
+   -121.4460616,
+   38.0407546
+  ],
+  "site_Name": "Disappointment Slough, Honker Cut, Bishop Cut, Fourteen Mile Slough, Bear Creek"
+ },
+ "33": {
+  "coordinates": [
+   -121.4460616,
+   38.0407546
+  ],
+  "site_Name": "Disappointment Slough, Honker Cut, Stockton Deep Water Channel, San Joaquin River"
+ },
+ "34": {
+  "coordinates": [
+   -121.4182834,
+   38.0640874
+  ],
+  "site_Name": "Bishop Cut, White Slough, Disappointment Slough, Telephone Cut"
+ },
+ "35": {
+  "coordinates": [
+   -121.3991164,
+   38.0726982
+  ],
+  "site_Name": "Telephone Cut, Bishop Cut"
+ },
+ "36": {
+  "coordinates": [
+   -121.4160615,
+   38.1307519
+  ],
+  "site_Name": "Upland Canal, White Slough"
+ },
+ "37": {
+  "coordinates": [
+   -121.4182834,
+   38.0640874
+  ],
+  "site_Name": "White Slough, Honker Cut, Bishop Cut"
+ },
+ "38": {
+  "coordinates": [
+   -121.4460616,
+   38.0407546
+  ],
+  "site_Name": "Honker Cut, White Slough, Disappointment Slough"
+ },
+ "39": {
+  "coordinates": [
+   -121.457377,
+   38.058549
+  ],
+  "site_Name": "White Slough, Little Potato Slough, Honker Cut"
+ },
+ "40": {
+  "coordinates": [
+   -121.4954846,
+   38.1138792
+  ],
+  "site_Name": "Little Potato Slough, Tower Park"
+ },
+ "41": {
+  "coordinates": [
+   -121.4977005,
+   38.1149645
+  ],
+  "site_Name": "Little Potato Slough, Little Connection Slough, White Slough"
+ },
+ "42": {
+  "coordinates": [
+   -121.50109,
+   38.0521211
+  ],
+  "site_Name": "Little Connection Slough, Stockton Deep Water Channel, Potato Slough, Little Potato Slough"
+ },
+ "43": {
+  "coordinates": [
+   -121.4977005,
+   38.1149645
+  ],
+  "site_Name": "Potato Slough, Little Potato Slough, Little Connection Slough"
+ },
+ "44": {
+  "coordinates": [
+   -121.5427302,
+   38.083253
+  ],
+  "site_Name": "Potato Slough, San Joaquin River"
+ },
+ "45": {
+  "coordinates": [
+   -121.4967672,
+   37.9041172
+  ],
+  "site_Name": "Middle River, Old River"
+ },
+ "46": {
+  "coordinates": [
+   -121.3923836,
+   37.8565862
+  ],
+  "site_Name": "Middle River, South of West Howard Road"
+ },
+ "47": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Middle River, Howard Road, West Klein Road"
+ },
+ "48": {
+  "coordinates": [
+   -121.4252227,
+   37.7396513
+  ],
+  "site_Name": "Middle River, East of Tracy Blvd"
+ },
+ "49": {
+  "coordinates": [
+   -121.4967672,
+   37.9041172
+  ],
+  "site_Name": "Middle River, West of Tracy Blvd"
+ },
+ "50": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "North Canal, Victoria Canal, Middle River"
+ },
+ "51": {
+  "coordinates": [
+   -121.5542427,
+   37.9221582
+  ],
+  "site_Name": "North Canal, Victoria Canal, Old River"
+ },
+ "52": {
+  "coordinates": [
+   -121.4531168,
+   37.9107799
+  ],
+  "site_Name": "Middle River, Trapper Slough, Victoria Canal, North Canal"
+ },
+ "53": {
+  "coordinates": [
+   -121.6573914,
+   38.0548809
+  ],
+  "site_Name": "Middle River, Woodward Island Ferry"
+ },
+ "54": {
+  "coordinates": [
+   -121.5424505,
+   37.91325800000001
+  ],
+  "site_Name": "North Victoria Canal, Woodward Canal, Middle River"
+ },
+ "55": {
+  "coordinates": [
+   -121.5424505,
+   37.91325800000001
+  ],
+  "site_Name": "North Victoria Canal, Woodward Canal, Old River"
+ },
+ "56": {
+  "coordinates": [
+   -121.4841851,
+   37.9202349
+  ],
+  "site_Name": "Middle River, Bacon Island Road"
+ },
+ "57": {
+  "coordinates": [
+   -121.5542427,
+   37.9221582
+  ],
+  "site_Name": "Railroad Cut, Middle River, Old River"
+ },
+ "58": {
+  "coordinates": [
+   -121.4967672,
+   37.9041172
+  ],
+  "site_Name": "Middle River, Railroad Cut"
+ },
+ "59": {
+  "coordinates": [
+   -76.4394056,
+   39.3342744
+  ],
+  "site_Name": "Empire Cut, Middle River, Mildred Island"
+ },
+ "60": {
+  "coordinates": [
+   -121.5014912,
+   37.9716273
+  ],
+  "site_Name": "Empire Cut, Mildred Island"
+ },
+ "61": {
+  "coordinates": [
+   -121.4391431,
+   37.9419166
+  ],
+  "site_Name": "Whiskey Slough, South of Empire Cut, Boulton Road"
+ },
+ "62": {
+  "coordinates": [
+   -121.4339269,
+   37.9379002
+  ],
+  "site_Name": "Whiskey Slough, Whiskey Slough Marina"
+ },
+ "63": {
+  "coordinates": [
+   -121.4391431,
+   37.9419166
+  ],
+  "site_Name": "Whiskey Slough, Trapper Slough"
+ },
+ "64": {
+  "coordinates": [
+   -121.4391431,
+   37.9419166
+  ],
+  "site_Name": "Trapper Slough, Middle River, Victoria Canal, North Canal, Whiskey Slough"
+ },
+ "65": {
+  "coordinates": [
+   -121.5166597,
+   37.9845981
+  ],
+  "site_Name": "Latham Slough, Mildred Island"
+ },
+ "66": {
+  "coordinates": [
+   -76.4394056,
+   39.3342744
+  ],
+  "site_Name": "Middle River, Mildred Island"
+ },
+ "67": {
+  "coordinates": [
+   -76.4394056,
+   39.3342744
+  ],
+  "site_Name": "Connection Slough, Middle River, Mildred Island"
+ },
+ "68": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Middle River, Columbia Cut, Five Fingers"
+ },
+ "69": {
+  "coordinates": [
+   -121.5271873,
+   38.020445
+  ],
+  "site_Name": "Connection Slough, Middle River"
+ },
+ "70": {
+  "coordinates": [
+   -120.8272698,
+   37.2813001
+  ],
+  "site_Name": "Old River, San Joaquin River"
+ },
+ "71": {
+  "coordinates": [
+   -121.5542427,
+   37.9221582
+  ],
+  "site_Name": "Old River, Middle River, Paradise Cut"
+ },
+ "72": {
+  "coordinates": [
+   -121.3620713,
+   37.7826358
+  ],
+  "site_Name": "Old River, Paradise Cut"
+ },
+ "73": {
+  "coordinates": [
+   -121.3620713,
+   37.7826358
+  ],
+  "site_Name": "Old River, Paradise Cut, Salmon Slough"
+ },
+ "74": {
+  "coordinates": [
+   -121.3438345,
+   37.76500300000001
+  ],
+  "site_Name": "Sugar Slough, Tom Paine Slough"
+ },
+ "75": {
+  "coordinates": [
+   -121.5542427,
+   37.9221582
+  ],
+  "site_Name": "Old River, Tom Paine Slough"
+ },
+ "76": {
+  "coordinates": [
+   -121.4174815,
+   37.7993446
+  ],
+  "site_Name": "Old River, South Lammers Road"
+ },
+ "77": {
+  "coordinates": [
+   -121.4925674,
+   37.7970598
+  ],
+  "site_Name": "Old River, Finck Road"
+ },
+ "78": {
+  "coordinates": [
+   -121.5568936,
+   37.8163161
+  ],
+  "site_Name": "Old River, Hammer Island, Delta Mendota Canal"
+ },
+ "79": {
+  "coordinates": [
+   -121.5590301,
+   37.8088621
+  ],
+  "site_Name": "Delta Mendota Canal, River's End"
+ },
+ "80": {
+  "coordinates": [
+   -121.4824477,
+   37.819094
+  ],
+  "site_Name": "Fabian & Bell Canal, Grant Line Canal, Old River"
+ },
+ "81": {
+  "coordinates": [
+   -121.4552249,
+   37.820205
+  ],
+  "site_Name": "Fabian & Bell Canal, Grant Line Canal, Doughty Cut, Salmon Slough"
+ },
+ "82": {
+  "coordinates": [
+   -121.416335,
+   37.8127052
+  ],
+  "site_Name": "Grant Line Canal, Salmon Slough"
+ },
+ "83": {
+  "coordinates": [
+   -121.4552249,
+   37.820205
+  ],
+  "site_Name": "Old River, Grant Line Canal, West Canal, Clifton Court Forebay"
+ },
+ "84": {
+  "coordinates": [
+   -121.5542427,
+   37.9221582
+  ],
+  "site_Name": "Old River, West Canal"
+ },
+ "85": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Old River, West Canal, Victoria Canal, North Canal"
+ },
+ "86": {
+  "coordinates": [
+   -121.5769572,
+   37.8407652
+  ],
+  "site_Name": "Old River, West Canal, Clifton Court Forebay"
+ },
+ "87": {
+  "coordinates": [
+   -121.5741169,
+   37.861037
+  ],
+  "site_Name": "Old River, Eucalyptus Island, Widdows Island"
+ },
+ "88": {
+  "coordinates": [
+   -121.5886112,
+   37.8489766
+  ],
+  "site_Name": "California Aqueduct, Clifton Court Forebay, Italian Slough"
+ },
+ "89": {
+  "coordinates": [
+   -120.9403453,
+   37.944788
+  ],
+  "site_Name": "Old River, South of Highway 4"
+ },
+ "90": {
+  "coordinates": [
+   -120.9403453,
+   37.944788
+  ],
+  "site_Name": "Old River, North of Highway 4"
+ },
+ "91": {
+  "coordinates": [
+   -121.5542427,
+   37.9221582
+  ],
+  "site_Name": "Old River, Indian Slough"
+ },
+ "92": {
+  "coordinates": [
+   -121.620505,
+   37.935671
+  ],
+  "site_Name": "Old River, Fay Island"
+ },
+ "93": {
+  "coordinates": [
+   -121.5794541,
+   37.9180853
+  ],
+  "site_Name": "Discovery Bay, Indian Slough"
+ },
+ "94": {
+  "coordinates": [
+   -121.6085628,
+   37.9313129
+  ],
+  "site_Name": "Werner Dredger Cut, South Werner Dredger Cut, Indian Slough, Orwood Resort"
+ },
+ "95": {
+  "coordinates": [
+   -121.6085628,
+   37.9313129
+  ],
+  "site_Name": "Werner Dredger Cut, Central Werner Dredger Cut"
+ },
+ "96": {
+  "coordinates": [
+   -121.6085628,
+   37.9313129
+  ],
+  "site_Name": "Werner Dredger Cut, Rock Slough, North Werner Dredger Cut"
+ },
+ "97": {
+  "coordinates": [
+   -121.5542427,
+   37.9221582
+  ],
+  "site_Name": "Rock Slough, Sandmound Slough, Old River"
+ },
+ "98": {
+  "coordinates": [
+   -121.5807852,
+   37.9754785
+  ],
+  "site_Name": "Old River, Rock Slough"
+ },
+ "99": {
+  "coordinates": [
+   -121.5813413,
+   38.0149218
+  ],
+  "site_Name": "Connection Slough, Holland Cut, Little Mandeville Island, Rhode Island"
+ },
+ "100": {
+  "coordinates": [
+   -121.5271873,
+   38.020445
+  ],
+  "site_Name": "Connection Slough, Little Mandeville Island, Bacon Island"
+ },
+ "101": {
+  "coordinates": [
+   -121.5542427,
+   37.9221582
+  ],
+  "site_Name": "Old River, Little Mandeville Island, Mandeville Island"
+ },
+ "102": {
+  "coordinates": [
+   -121.5813413,
+   38.0149218
+  ],
+  "site_Name": "Holland Cut, Sheep Slough"
+ },
+ "103": {
+  "coordinates": [
+   -121.5542427,
+   37.9221582
+  ],
+  "site_Name": "Old River, Mandeville Island"
+ },
+ "104": {
+  "coordinates": [
+   -121.5488411,
+   38.0346435
+  ],
+  "site_Name": "Old River, False River, San Joaquin River, Mandeville Island"
+ },
+ "105": {
+  "coordinates": [
+   -121.6222601,
+   38.03335320000001
+  ],
+  "site_Name": "False River, North Franks Tract"
+ },
+ "106": {
+  "coordinates": [
+   -121.6480091,
+   38.069642
+  ],
+  "site_Name": "Fisherman's Cut, False River, San Joaquin River"
+ },
+ "107": {
+  "coordinates": [
+   -121.6381141,
+   38.0467395
+  ],
+  "site_Name": "Piper Slough, False River, Sandmound Slough"
+ },
+ "108": {
+  "coordinates": [
+   -121.6035638,
+   38.0182549
+  ],
+  "site_Name": "Roosevelt Cut, Sand Mound Slough"
+ },
+ "109": {
+  "coordinates": [
+   -121.6165436,
+   38.0115637
+  ],
+  "site_Name": "Contra Costa Canal, Rock Slough, Sand Mound Slough"
+ },
+ "110": {
+  "coordinates": [
+   -121.6669642,
+   38.0307075
+  ],
+  "site_Name": "Taylor Slough, South Taylor Slough, Caliente Harbor, Anchor Marina"
+ },
+ "111": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Taylor Slough, North Taylor Slough, Mariner Cove Marina, Jackass Point"
+ },
+ "112": {
+  "coordinates": [
+   -121.6543339,
+   38.0128016
+  ],
+  "site_Name": "Dutch Slough, Emerson Slough"
+ },
+ "113": {
+  "coordinates": [
+   -121.6543339,
+   38.0128016
+  ],
+  "site_Name": "Dutch Slough, Jersey Island"
+ },
+ "114": {
+  "coordinates": [
+   -121.6543339,
+   38.0128016
+  ],
+  "site_Name": "Dutch Slough, West Dutch Slough"
+ },
+ "115": {
+  "coordinates": [
+   -121.7323289,
+   38.00880850000001
+  ],
+  "site_Name": "Big Break, Marsh Creek"
+ },
+ "116": {
+  "coordinates": [
+   -121.7290251,
+   38.010852
+  ],
+  "site_Name": "Big Break, Southwest Big Break"
+ },
+ "117": {
+  "coordinates": [
+   -121.732961,
+   38.011463
+  ],
+  "site_Name": "Big Break, Northwest Big Break, Big Break Marina"
+ },
+ "118": {
+  "coordinates": [
+   -121.747606,
+   38.0165653
+  ],
+  "site_Name": "Big Break, Little Big Break, Lauritzen Yacht Harbor, Antioch Bridge"
+ },
+ "119": {
+  "coordinates": [
+   -121.732961,
+   38.011463
+  ],
+  "site_Name": "San Joaquin River, Antioch Bridge, Big Break Marina"
+ },
+ "120": {
+  "coordinates": [
+   -121.7505098,
+   38.0246431
+  ],
+  "site_Name": "San Joaquin River, Antioch Bridge"
+ },
+ "121": {
+  "coordinates": [
+   -121.8628049,
+   38.0325808
+  ],
+  "site_Name": "San Joaquin River, New York Slough, Antioch"
+ },
+ "122": {
+  "coordinates": [
+   -121.7654509,
+   38.0463121
+  ],
+  "site_Name": "Donlon Island, Mayberry Slough, Sherman Lake"
+ },
+ "123": {
+  "coordinates": [
+   -121.7843998,
+   38.0326984
+  ],
+  "site_Name": "Mayberry Cut, Sherman Lake"
+ },
+ "124": {
+  "coordinates": [
+   -121.7964688,
+   38.0402332
+  ],
+  "site_Name": "Sherman Lake, South Sherman Island, San Joaquin River"
+ },
+ "125": {
+  "coordinates": [
+   -121.7654509,
+   38.0463121
+  ],
+  "site_Name": "Sacramento River, Sherman Lake, Mayberry Slough, Sandy Beach Park"
+ },
+ "126": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Cabin Slough, Sherman Lake, East Cabin Slough"
+ },
+ "127": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Cabin Slough, Sherman Lake, West Cabin Slough"
+ },
+ "128": {
+  "coordinates": [
+   -121.7964688,
+   38.0402332
+  ],
+  "site_Name": "Sherman Lake, Eastern Central Sherman Island WMA"
+ },
+ "129": {
+  "coordinates": [
+   -121.6148297,
+   38.4040153
+  ],
+  "site_Name": "Sacramento River Deep Water Ship Channel, Sherman Lake"
+ },
+ "130": {
+  "coordinates": [
+   -121.7964688,
+   38.0402332
+  ],
+  "site_Name": "Sherman Lake, Central Sherman Island WMA"
+ },
+ "131": {
+  "coordinates": [
+   -121.8405853,
+   38.0480247
+  ],
+  "site_Name": "Broad Slough, Sacramento River Deep Water Ship Channel, San Joaquin River, Sherman Lake"
+ },
+ "132": {
+  "coordinates": [
+   -121.8427354,
+   38.0679749
+  ],
+  "site_Name": "Broad Slough, San Joaquin River, Sherman Lake, Cabin Slough"
+ },
+ "133": {
+  "coordinates": [
+   -121.8491446,
+   38.0446263
+  ],
+  "site_Name": "Winter Island, Broad Slough, Middle Slough, New York Slough, San Joaquin River"
+ },
+ "134": {
+  "coordinates": [
+   -121.8519038,
+   38.0392207
+  ],
+  "site_Name": "Browns Island, Middle Slough, New York Slough, San Joaquin River, Suisun Bay"
+ },
+ "135": {
+  "coordinates": [
+   -121.7332878,
+   38.0593642
+  ],
+  "site_Name": "Sacramento River, Sherman Island, West Sherman Island Road"
+ },
+ "136": {
+  "coordinates": [
+   -121.6148297,
+   38.4040153
+  ],
+  "site_Name": "Sacramento River, Sacramento River Deep Water Ship Channel, North Montezuma Island"
+ },
+ "137": {
+  "coordinates": [
+   -121.6148297,
+   38.4040153
+  ],
+  "site_Name": "Sacramento River, Sacramento River Deep Water Ship Channel, Light 11 Fl G 6s"
+ },
+ "138": {
+  "coordinates": [
+   -121.751344,
+   38.0882521
+  ],
+  "site_Name": "Sacramento River, Sacramento River Deep Water Ship Channel, Toland Landing"
+ },
+ "139": {
+  "coordinates": [
+   -121.6148297,
+   38.4040153
+  ],
+  "site_Name": "Sacramento River, Sacramento River Deep Water Ship Channel, Chinese Cut"
+ },
+ "140": {
+  "coordinates": [
+   -121.6148297,
+   38.4040153
+  ],
+  "site_Name": "Sacramento River, Sacramento River, Sacramento River Deep Water Ship Channel, Rio Vista, Delta Marina"
+ },
+ "141": {
+  "coordinates": [
+   -121.6830163,
+   38.1584561
+  ],
+  "site_Name": "Sacramento River, West Brannan Island, Helen Madere Memorial Bridge"
+ },
+ "171": {
+  "coordinates": [
+   -121.6322269,
+   38.0122329
+  ],
+  "site_Name": "Delta Coves, Sandmound Slough, Dutch Slough"
+ },
+ "173": {
+  "coordinates": [
+   -121.6510646,
+   38.0499204
+  ],
+  "site_Name": "Franks Tract, Little Franks Tract, Southwest Franks Tract"
+ },
+ "174": {
+  "coordinates": [
+   -121.6222601,
+   38.03335320000001
+  ],
+  "site_Name": "Franks Tract, Central Franks Tract"
+ },
+ "175": {
+  "coordinates": [
+   -121.6222601,
+   38.03335320000001
+  ],
+  "site_Name": "Franks Tract, Northeast Franks Tract"
+ },
+ "176": {
+  "coordinates": [
+   -121.7152324,
+   38.0835302
+  ],
+  "site_Name": "Decker Island, Horseshoe Bend, Sacramento River"
+ },
+ "200": {
+  "coordinates": [
+   -121.4953271,
+   38.1233598
+  ],
+  "site_Name": "Islemouth Slough, South Mokelumne River, Westgate Landing, Staten Island, Terminous Tract"
+ },
+ "201": {
+  "coordinates": [
+   -121.5682864,
+   38.1326959
+  ],
+  "site_Name": "South Mokelumne River, Potato Slough, Staten Island, Bouldin Island"
+ },
+ "202": {
+  "coordinates": [
+   -121.5749849,
+   38.1097595
+  ],
+  "site_Name": "South Mokelumne River, North Fork of Mokelumne River, Staten Island, Bouldin Island"
+ },
+ "203": {
+  "coordinates": [
+   -121.4802518,
+   38.1398959
+  ],
+  "site_Name": "Sycamore Slough, Brack Tract, Terminous Tract"
+ },
+ "204": {
+  "coordinates": [
+   -121.5682864,
+   38.1326959
+  ],
+  "site_Name": "South Mokelumne River, Staten Island, Brack Tract"
+ },
+ "205": {
+  "coordinates": [
+   -121.4709695,
+   38.1688934
+  ],
+  "site_Name": "Hog Slough, Brack Tract, Canal Ranch"
+ },
+ "206": {
+  "coordinates": [
+   -121.5682864,
+   38.1326959
+  ],
+  "site_Name": "South Mokelumne River, Staten Island, Canal Ranch"
+ },
+ "207": {
+  "coordinates": [
+   -121.4593656,
+   38.2031903
+  ],
+  "site_Name": "Beaver Slough, Canal Ranch, New Hope Tract"
+ },
+ "208": {
+  "coordinates": [
+   -121.5682864,
+   38.1326959
+  ],
+  "site_Name": "South Mokelumne River, Staten Island, New Hope Tract"
+ },
+ "209": {
+  "coordinates": [
+   -121.5749849,
+   38.1097595
+  ],
+  "site_Name": "Mokelumne River, North Mokelumne River, Staten Island, Bouldin Island"
+ },
+ "210": {
+  "coordinates": [
+   -121.5682864,
+   38.1329737
+  ],
+  "site_Name": "North Mokelumne River, Staten Island"
+ },
+ "211": {
+  "coordinates": [
+   -121.5682864,
+   38.1329737
+  ],
+  "site_Name": "North Mokelumne River, Staten Island, Walnut Grove-Thornton Road"
+ },
+ "212": {
+  "coordinates": [
+   -121.5749849,
+   38.1097595
+  ],
+  "site_Name": "North Mokelumne River, South Mokelumne River, Staten Island"
+ },
+ "213": {
+  "coordinates": [
+   -121.5749849,
+   38.1097595
+  ],
+  "site_Name": "Mokelumne River, New Hope Tract"
+ },
+ "214": {
+  "coordinates": [
+   -121.5010662,
+   38.2678238
+  ],
+  "site_Name": "Delta Meadows South, Snodgrass Slough, Railroad Cut"
+ },
+ "215": {
+  "coordinates": [
+   -121.4389591,
+   38.2685538
+  ],
+  "site_Name": "Lost Slough, Consumnes River"
+ },
+ "216": {
+  "coordinates": [
+   -121.5095218,
+   38.2634507
+  ],
+  "site_Name": "Snodgrass Slough, The Meadows Slough, Southern Pacific Ditch"
+ },
+ "217": {
+  "coordinates": [
+   -121.5010662,
+   38.2678238
+  ],
+  "site_Name": "Snodgrass Slough, Southern Pacific Ditch, Alfalfa Plant Road"
+ },
+ "218": {
+  "coordinates": [
+   -121.5010662,
+   38.2678238
+  ],
+  "site_Name": "Snodgrass Slough, Russell Road, Herzog Road"
+ },
+ "219": {
+  "coordinates": [
+   -121.4977433,
+   38.3445968
+  ],
+  "site_Name": "Snodgrass Slough, South Stone Lake, Lambert Road"
+ },
+ "220": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, South Stone Lake, Lambert Road"
+ },
+ "221": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, Lambert Road, Kestrel Lake Road"
+ },
+ "222": {
+  "coordinates": [
+   -121.4977433,
+   38.3445968
+  ],
+  "site_Name": "Stone Lakes, Stone Lake"
+ },
+ "223": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, East Arm of Stone Lake"
+ },
+ "224": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, North Arm of Stone Lake"
+ },
+ "225": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, Sprock Road"
+ },
+ "226": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, Hood Junction, South of Hood Franklin Road"
+ },
+ "230": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, Hood Junction, North of Hood Franklin Road"
+ },
+ "231": {
+  "coordinates": [
+   -121.4991711,
+   38.3929094
+  ],
+  "site_Name": "Stone Lakes, West of North Stone Lake"
+ },
+ "232": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, North Stone Lake"
+ },
+ "233": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, East of North Stone Lake"
+ },
+ "234": {
+  "coordinates": [
+   -121.4977433,
+   38.3445968
+  ],
+  "site_Name": "Stone Lakes, South of Elk Grove Blvd"
+ },
+ "235": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, North of Elk Grove Blvd"
+ },
+ "236": {
+  "coordinates": [
+   -121.4955091,
+   38.370946
+  ],
+  "site_Name": "Stone Lakes, Morrison Creek, East of Moores Landing"
+ },
+ "237": {
+  "coordinates": [
+   -85.5161612,
+   38.1824399
+  ],
+  "site_Name": "Stone Lakes, Morrison Creek, Interstate 5"
+ },
+ "238": {
+  "coordinates": [
+   -121.3872928,
+   38.5060962
+  ],
+  "site_Name": "Morrison Creek, Stone Lakes, Beach Lake"
+ },
+ "239": {
+  "coordinates": [
+   -121.3872928,
+   38.5060962
+  ],
+  "site_Name": "Morrison Creek, Stone Lakes, Mack Road"
+ },
+ "240": {
+  "coordinates": [
+   -121.6148297,
+   38.4040153
+  ],
+  "site_Name": "Sacramento River, Sacramento River Deep Water Ship Channel"
+ },
+ "241": {
+  "coordinates": [
+   -121.6116206,
+   38.1618614
+  ],
+  "site_Name": "Sacramento River, Isleton"
+ },
+ "242": {
+  "coordinates": [
+   -121.5952533,
+   38.196727
+  ],
+  "site_Name": "Sacramento River, Poverty Road"
+ },
+ "243": {
+  "coordinates": [
+   -121.5877022,
+   38.2693792
+  ],
+  "site_Name": "Sacramento River, Walker Island Road"
+ },
+ "244": {
+  "coordinates": [
+   -121.5034836,
+   38.2442493
+  ],
+  "site_Name": "Sacramento River, Delta Cross Channel, Locke, Walnut Grove"
+ },
+ "245": {
+  "coordinates": [
+   -121.5283645,
+   38.2837334
+  ],
+  "site_Name": "Sacramento River, Vorden Road, Leary Road"
+ },
+ "246": {
+  "coordinates": [
+   -121.5749731,
+   38.3053934
+  ],
+  "site_Name": "Morgan's Landing, Courtland, Sacramento River"
+ },
+ "247": {
+  "coordinates": [
+   -121.5168382,
+   38.36788019999999
+  ],
+  "site_Name": "Sacramento River, Hood"
+ },
+ "248": {
+  "coordinates": [
+   -121.5294026,
+   38.4198403
+  ],
+  "site_Name": "Sacramento River, Clarksburg"
+ },
+ "249": {
+  "coordinates": [
+   -121.5016216,
+   38.4618527
+  ],
+  "site_Name": "Sacramento River, Freeport"
+ },
+ "250": {
+  "coordinates": [
+   -121.5416389,
+   38.4790787
+  ],
+  "site_Name": "Sacramento River, Garcia Bend Park, Pocket Area, Sacramento Marina"
+ },
+ "251": {
+  "coordinates": [
+   -121.6148297,
+   38.4040153
+  ],
+  "site_Name": "Steamboat Slough, Cache Slough, Sacramento Deep Water Channel"
+ },
+ "252": {
+  "coordinates": [
+   -121.6131705,
+   38.2002019
+  ],
+  "site_Name": "Steamboat Slough, Hogback Island Recreation Facility, Snug Harbor"
+ },
+ "253": {
+  "coordinates": [
+   -121.608945,
+   38.2384415
+  ],
+  "site_Name": "Steamboat Slough, Howard Landing Ferry, Highway 220"
+ },
+ "254": {
+  "coordinates": [
+   -121.6031584,
+   38.2418463
+  ],
+  "site_Name": "Steamboat Slough, River Mansion, Goldman Landing"
+ },
+ "255": {
+  "coordinates": [
+   -121.5749731,
+   38.3053934
+  ],
+  "site_Name": "Steamboat Slough, Steamboat Landing, Sacramento River"
+ },
+ "256": {
+  "coordinates": [
+   -121.6038103,
+   38.2918867
+  ],
+  "site_Name": "Sutter Slough, Steamboat Slough, Miner Slough"
+ },
+ "257": {
+  "coordinates": [
+   -121.6038103,
+   38.2918867
+  ],
+  "site_Name": "Sutter Slough, Miner Slough"
+ },
+ "258": {
+  "coordinates": [
+   -121.7315686,
+   38.3074819
+  ],
+  "site_Name": "Sutter Slough, Duck Slough"
+ },
+ "259": {
+  "coordinates": [
+   -121.5231527,
+   38.4139736
+  ],
+  "site_Name": "Elk Slough, Tule Canal, Duck Slough, Main Canal"
+ },
+ "260": {
+  "coordinates": [
+   -121.6666216,
+   38.1788051
+  ],
+  "site_Name": "Cache Slough, Sacramento River Deep Water Ship Channel, Steamboat Slough"
+ },
+ "261": {
+  "coordinates": [
+   -121.6666216,
+   38.1788051
+  ],
+  "site_Name": "Cache Slough, Sacramento River Deep Water Ship Channel, Elkhorn Slough"
+ },
+ "262": {
+  "coordinates": [
+   -121.6418449,
+   38.2665229
+  ],
+  "site_Name": "Miner Slough, Prospect Island"
+ },
+ "263": {
+  "coordinates": [
+   -121.6591292,
+   38.2430971
+  ],
+  "site_Name": "Miner Slough, Ryer Island Road, Highways 84 and 220"
+ },
+ "264": {
+  "coordinates": [
+   -121.6418449,
+   38.2665229
+  ],
+  "site_Name": "Miner Slough, Ryer Island Road and Elevator Road"
+ },
+ "265": {
+  "coordinates": [
+   -121.6341217,
+   38.24046999999999
+  ],
+  "site_Name": "Miner Slough, Ryer Island Road and Holland Road"
+ },
+ "266": {
+  "coordinates": [
+   -121.6284999,
+   38.2905471
+  ],
+  "site_Name": "Miner Slough, Holland Road and Ryer Road East"
+ },
+ "267": {
+  "coordinates": [
+   -121.6666216,
+   38.1788051
+  ],
+  "site_Name": "Cache Slough, Prospect Slough, Sacramento River Deep Water Ship Channel"
+ },
+ "268": {
+  "coordinates": [
+   -121.6544,
+   38.26796909999999
+  ],
+  "site_Name": "Sacramento River Deep Water Ship Channel, Prospect Island, Teal Road"
+ },
+ "269": {
+  "coordinates": [
+   -121.6785674,
+   38.2868573
+  ],
+  "site_Name": "Liberty Island, Sacramento River Deep Water Ship Channel, Toe Drain"
+ },
+ "270": {
+  "coordinates": [
+   -121.6671787,
+   38.3154678
+  ],
+  "site_Name": "Liberty Cut, Toe Drain, Prospect Slough"
+ },
+ "271": {
+  "coordinates": [
+   -121.6041235,
+   38.4385199
+  ],
+  "site_Name": "Liberty Cut, Toe Drain"
+ },
+ "272": {
+  "coordinates": [
+   -121.6666216,
+   38.1788051
+  ],
+  "site_Name": "Cache Slough, Little Hastings Tract"
+ },
+ "273": {
+  "coordinates": [
+   -121.6666216,
+   38.1788051
+  ],
+  "site_Name": "Cache Slough, Liberty Island"
+ },
+ "274": {
+  "coordinates": [
+   -121.6785674,
+   38.2868573
+  ],
+  "site_Name": "Shag Slough, Lookout Slough, Liberty Island"
+ },
+ "275": {
+  "coordinates": [
+   -74.0449292,
+   40.6895453
+  ],
+  "site_Name": "Liberty Cut, Liberty Island, Shag Slough, Liberty Island Road"
+ },
+ "276": {
+  "coordinates": [
+   -121.6917046,
+   38.3063906
+  ],
+  "site_Name": "Liberty Cut, Liberty Island, Shag Slough"
+ },
+ "277": {
+  "coordinates": [
+   -121.6666216,
+   38.1788051
+  ],
+  "site_Name": "Cache Slough, Hastings Tract"
+ },
+ "278": {
+  "coordinates": [
+   -121.6666216,
+   38.1788051
+  ],
+  "site_Name": "Cache Slough, Hass Slough"
+ },
+ "279": {
+  "coordinates": [
+   -121.7371797,
+   38.30046790000001
+  ],
+  "site_Name": "Hass Slough, Duck Slough, Peters Pocket"
+ },
+ "280": {
+  "coordinates": [
+   -121.6666216,
+   38.1788051
+  ],
+  "site_Name": "Cache Slough, Ulatis Creek"
+ },
+ "281": {
+  "coordinates": [
+   -121.7600567,
+   38.2609011
+  ],
+  "site_Name": "Lindsey Slough, Wright Cut"
+ },
+ "282": {
+  "coordinates": [
+   -121.7600567,
+   38.2609011
+  ],
+  "site_Name": "Lindsey Slough, East"
+ },
+ "283": {
+  "coordinates": [
+   -121.7600567,
+   38.2609011
+  ],
+  "site_Name": "Lindsey Slough, West"
+ },
+ "284": {
+  "coordinates": [
+   -121.8054893,
+   38.2600834
+  ],
+  "site_Name": "Barker Slough, Calhoun Cut, Lindsey Slough"
+ },
+ "285": {
+  "coordinates": [
+   -121.577728,
+   38.1300635
+  ],
+  "site_Name": "Georgiana Slough, Terminous Road"
+ },
+ "286": {
+  "coordinates": [
+   -121.5910637,
+   38.1516087
+  ],
+  "site_Name": "Georgiana Slough, Oxbow Marina"
+ },
+ "287": {
+  "coordinates": [
+   -121.577728,
+   38.1300635
+  ],
+  "site_Name": "Georgiana Slough, North of Tyler Island Bridge Road"
+ },
+ "288": {
+  "coordinates": [
+   -121.5698865,
+   38.1819653
+  ],
+  "site_Name": "Georgiana Slough, Tyler Island Road"
+ },
+ "289": {
+  "coordinates": [
+   -121.598287,
+   38.1576949
+  ],
+  "site_Name": "Georgiana Slough, Andrus Island Road"
+ },
+ "290": {
+  "coordinates": [
+   -121.9738321,
+   39.6752077
+  ],
+  "site_Name": "Sacramento River, Pioneer Bridge, Tower Bridge, Miller Park"
+ },
+ "291": {
+  "coordinates": [
+   -121.3620713,
+   37.7826358
+  ],
+  "site_Name": "Paradise Cut"
+ },
+ "300": {
+  "coordinates": [
+   -121.2986217,
+   37.7738054
+  ],
+  "site_Name": "San Joaquin River, Walthall Slough"
+ },
+ "301": {
+  "coordinates": [
+   -121.2986217,
+   37.7738054
+  ],
+  "site_Name": "Walthall Slough, San Joaquin River, Weatherbee Lake"
+ },
+ "302": {
+  "coordinates": [
+   -121.3093872,
+   37.7599283
+  ],
+  "site_Name": "San Joaquin River, Paradise Dam, Mancuso Road"
+ },
+ "303": {
+  "coordinates": [
+   -121.2988569,
+   37.729939
+  ],
+  "site_Name": "San Joaquin River, East Lorenzen Road"
+ },
+ "304": {
+  "coordinates": [
+   -121.3459393,
+   37.6822191
+  ],
+  "site_Name": "Banta Carbona Lift Canal, San Joaquin River"
+ },
+ "305": {
+  "coordinates": [
+   -121.2986217,
+   37.7738054
+  ],
+  "site_Name": "Walthall Slough, San Joaquin River"
+ },
+ "306": {
+  "coordinates": [
+   -119.7571261,
+   36.906754
+  ],
+  "site_Name": "San Joaquin River, McMullin Road"
+ },
+ "307": {
+  "coordinates": [
+   -121.2541072,
+   37.6996513
+  ],
+  "site_Name": "Red Bridge Slough, San Joaquin River"
+ },
+ "308": {
+  "coordinates": [
+   -120.8272698,
+   37.2813001
+  ],
+  "site_Name": "San Joaquin River, Airport Road, Malibou Road"
+ },
+ "309": {
+  "coordinates": [
+   -121.2441065,
+   37.6702074
+  ],
+  "site_Name": "San Joaquin River, Sturgeon Bend"
+ },
+ "310": {
+  "coordinates": [
+   -120.7994334,
+   37.638501
+  ],
+  "site_Name": "San Joaquin River, North of Highway 132"
+ },
+ "311": {
+  "coordinates": [
+   -120.7994334,
+   37.638501
+  ],
+  "site_Name": "Finnegan Cut, San Joaquin River, Highway 132"
+ },
+ "312": {
+  "coordinates": [
+   -120.7212283,
+   37.8340398
+  ],
+  "site_Name": "Finnegan Cut, San Joaquin River, Tuolumne River"
+ },
+ "313": {
+  "coordinates": [
+   -121.2132709,
+   37.5743756
+  ],
+  "site_Name": "San Joaquin River, West Stanislaus Main Canal"
+ },
+ "314": {
+  "coordinates": [
+   -121.085769,
+   37.5659339
+  ],
+  "site_Name": "San Joaquin River, Grayson, West Grayson Road"
+ },
+ "315": {
+  "coordinates": [
+   -121.1571678,
+   37.5815943
+  ],
+  "site_Name": "Laird Slough, San Joaquin River"
+ },
+ "316": {
+  "coordinates": [
+   -121.1179907,
+   37.5577096
+  ],
+  "site_Name": "San Joaquin River, Brush Lake"
+ },
+ "317": {
+  "coordinates": [
+   -121.1154903,
+   37.541321
+  ],
+  "site_Name": "San Joaquin River, Del Puerto Creek"
+ },
+ "318": {
+  "coordinates": [
+   -121.0373763,
+   37.536822
+  ],
+  "site_Name": "San Joaquin River, Westport Drain"
+ },
+ "319": {
+  "coordinates": [
+   -119.69944,
+   36.757511
+  ],
+  "site_Name": "San Joaquin River, Las Palmas"
+ },
+ "320": {
+  "coordinates": [
+   -121.0714895,
+   37.4792767
+  ],
+  "site_Name": "Lake Ramona, San Joaquin River"
+ },
+ "321": {
+  "coordinates": [
+   -120.8272698,
+   37.2813001
+  ],
+  "site_Name": "San Joaquin River, Pear Slough"
+ },
+ "322": {
+  "coordinates": [
+   -121.0130636,
+   37.431342
+  ],
+  "site_Name": "San Joaquin River, North of Crows Landing Bridge"
+ },
+ "323": {
+  "coordinates": [
+   -121.0130636,
+   37.431342
+  ],
+  "site_Name": "San Joaquin River, South of Crows Landing Bridge"
+ },
+ "325": {
+  "coordinates": [
+   -120.992364,
+   37.331975
+  ],
+  "site_Name": "San Joaquin River, North of Hills Ferry Road"
+ },
+ "400": {
+  "coordinates": [
+   -120.992364,
+   37.331975
+  ],
+  "site_Name": "San Joaquin River, South of Hills Ferry Road"
+ },
+ "401": {
+  "coordinates": [
+   -120.9962483,
+   37.3039118
+  ],
+  "site_Name": "Newman Wasteway, San Joaquin River"
+ },
+ "402": {
+  "coordinates": [
+   -121.6928242,
+   38.3144496
+  ],
+  "site_Name": "San Joaquin River, Shag Slough"
+ },
+ "403": {
+  "coordinates": [
+   -119.9632895,
+   37.4716597
+  ],
+  "site_Name": "Mud Slough, Highway 140"
+ },
+ "404": {
+  "coordinates": [
+   -121.9946735,
+   37.5239426
+  ],
+  "site_Name": "Fremont Ford, San Joaquin River"
+ },
+ "405": {
+  "coordinates": [
+   -120.7567857,
+   37.1426454
+  ],
+  "site_Name": "Salt Slough, San Joaquin River"
+ },
+ "406": {
+  "coordinates": [
+   -120.8721106,
+   37.26617359999999
+  ],
+  "site_Name": "Salt Slough East Branch, Salt Slough"
+ },
+ "407": {
+  "coordinates": [
+   -120.8720288,
+   37.2649583
+  ],
+  "site_Name": "Salt Slough, Salt Slough Middle Branch"
+ },
+ "408": {
+  "coordinates": [
+   -120.7567857,
+   37.1426454
+  ],
+  "site_Name": "Salt Slough, Highway 165"
+ },
+ "409": {
+  "coordinates": [
+   -120.8256102,
+   37.2025967
+  ],
+  "site_Name": "Salt Slough, Salt Slough Fishing Access, Tule Elk Tour Route"
+ },
+ "410": {
+  "coordinates": [
+   -120.7567857,
+   37.1426454
+  ],
+  "site_Name": "Mud Slough, Salt Slough"
+ },
+ "411": {
+  "coordinates": [
+   -120.7931762,
+   37.1358178
+  ],
+  "site_Name": "Mud Slough, Buttonwillow Lake"
+ },
+ "412": {
+  "coordinates": [
+   -120.7567857,
+   37.1426454
+  ],
+  "site_Name": "Salt Slough, Circle Island Drain"
+ },
+ "413": {
+  "coordinates": [
+   -120.7567857,
+   37.1426454
+  ],
+  "site_Name": "Salt Slough, Salt Slough Road"
+ },
+ "414": {
+  "coordinates": [
+   -120.8176974,
+   37.1999422
+  ],
+  "site_Name": "San Joaquin River, San Luis Island"
+ },
+ "415": {
+  "coordinates": [
+   -120.8642492,
+   37.2810297
+  ],
+  "site_Name": "San Joaquin River, Great Valley Grasslands State Park, Highway 165"
+ },
+ "416": {
+  "coordinates": [
+   -120.7996435,
+   37.25883
+  ],
+  "site_Name": "Bear Creek, Bravel Slough"
+ },
+ "417": {
+  "coordinates": [
+   -120.8642492,
+   37.2810297
+  ],
+  "site_Name": "San Joaquin River, Great Valley Grasslands State Park, Bear Creek"
+ },
+ "418": {
+  "coordinates": [
+   -120.8642492,
+   37.2810297
+  ],
+  "site_Name": "San Joaquin River, Great Valley Grasslands State Park, South of Bear Creek"
+ },
+ "419": {
+  "coordinates": [
+   -120.8642492,
+   37.2810297
+  ],
+  "site_Name": "San Joaquin River, Great Valley Grasslands State Park, Waterfowl Tour Route"
+ },
+ "420": {
+  "coordinates": [
+   -120.6438022,
+   37.17299910000001
+  ],
+  "site_Name": "Mariposa Slough, San Joaquin River"
+ },
+ "421": {
+  "coordinates": [
+   -120.669912,
+   37.1196668
+  ],
+  "site_Name": "Salt Slough Ditch, San Joaquin River"
+ },
+ "422": {
+  "coordinates": [
+   -120.682135,
+   37.1310555
+  ],
+  "site_Name": "Pick Anderson Bypass, San Joaquin River"
+ },
+ "423": {
+  "coordinates": [
+   -120.6175765,
+   37.1043674
+  ],
+  "site_Name": "San Joaquin River, Orchard Ditch"
+ },
+ "424": {
+  "coordinates": [
+   -119.7571261,
+   36.906754
+  ],
+  "site_Name": "San Joaquin River, West Washington Road, Indiana Road"
+ },
+ "425": {
+  "coordinates": [
+   -120.5579325,
+   37.06445000000001
+  ],
+  "site_Name": "San Joaquin River, Riverside Canal"
+ },
+ "426": {
+  "coordinates": [
+   -120.5501835,
+   37.0557789
+  ],
+  "site_Name": "San Joaquin River, Santa Rita Bridge, Highway 152"
+ },
+ "427": {
+  "coordinates": [
+   -120.5501835,
+   37.0557789
+  ],
+  "site_Name": "Santa Rita Bridge, San Joaquin River"
+ },
+ "500": {
+  "coordinates": [
+   -119.6927831,
+   37.5564222
+  ],
+  "site_Name": "Merced River, South of River Road"
+ },
+ "501": {
+  "coordinates": [
+   -120.9593082,
+   37.356222
+  ],
+  "site_Name": "Merced River, George J Hatfield State Park"
+ },
+ "502": {
+  "coordinates": [
+   -120.9593082,
+   37.356222
+  ],
+  "site_Name": "Merced River, Northeast of George J Hatfield State Park"
+ },
+ "503": {
+  "coordinates": [
+   -120.8511291,
+   37.3276719
+  ],
+  "site_Name": "Merced River, Stevinson Home Ranch"
+ },
+ "504": {
+  "coordinates": [
+   -120.7453538,
+   37.4004496
+  ],
+  "site_Name": "Merced River, South of Hultberg Road and Rverside Avenue"
+ },
+ "505": {
+  "coordinates": [
+   -120.8507037,
+   37.3625034
+  ],
+  "site_Name": "Merced River, Southwest of Milliken Bridge"
+ },
+ "506": {
+  "coordinates": [
+   -120.849205,
+   37.3630561
+  ],
+  "site_Name": "Merced River, Hagaman Park"
+ },
+ "507": {
+  "coordinates": [
+   -120.8135984,
+   37.4013738
+  ],
+  "site_Name": "Merced River, Griffith Avenue"
+ },
+ "508": {
+  "coordinates": [
+   -120.1015946,
+   37.6025891
+  ],
+  "site_Name": "Merced River, West of Washington Blvd"
+ },
+ "509": {
+  "coordinates": [
+   0,
+   0
+  ],
+  "site_Name": "Merced River, Sycamore Street to Highway 99"
+ },
+ "510": {
+  "coordinates": [
+   -120.7110885,
+   37.4158738
+  ],
+  "site_Name": "Merced River, South Mcconnell State Recreation Area"
+ },
+ "511": {
+  "coordinates": [
+   -120.7110885,
+   37.4158738
+  ],
+  "site_Name": "Merced River, North Mcconnell State Recreation Area"
+ },
+ "512": {
+  "coordinates": [
+   -120.6494463,
+   37.4289567
+  ],
+  "site_Name": "Merced River, Jones Drain"
+ },
+ "513": {
+  "coordinates": [
+   -120.6084738,
+   37.4545269
+  ],
+  "site_Name": "Merced River, Southwest of Shaffer Bridge"
+ },
+ "514": {
+  "coordinates": [
+   -120.6084738,
+   37.4545269
+  ],
+  "site_Name": "Merced River, Northeast of Shaffer Bridge"
+ },
+ "515": {
+  "coordinates": [
+   -120.5949294,
+   37.4058916
+  ],
+  "site_Name": "Merced River, Shaffer Road"
+ },
+ "516": {
+  "coordinates": [
+   -121.7291971,
+   36.817148
+  ],
+  "site_Name": "Hope Town Slough, Ingalse Slough"
+ },
+ "517": {
+  "coordinates": [
+   -120.5506171,
+   37.4957904
+  ],
+  "site_Name": "Merced River, South of Ingalsbe Slough"
+ },
+ "518": {
+  "coordinates": [
+   -120.5576411,
+   37.4910192
+  ],
+  "site_Name": "Merced River, Reinero Drain"
+ },
+ "519": {
+  "coordinates": [
+   -120.7453538,
+   37.4004496
+  ],
+  "site_Name": "Merced River, West of Amsterdam Road"
+ },
+ "520": {
+  "coordinates": [
+   -120.7453538,
+   37.4004496
+  ],
+  "site_Name": "Merced River, East of Amsterdam Road"
+ },
+ "521": {
+  "coordinates": [
+   -120.5004994,
+   37.4704594
+  ],
+  "site_Name": "Merced River, West of Highway 59 Snelling Highway"
+ },
+ "522": {
+  "coordinates": [
+   -120.5004994,
+   37.4704594
+  ],
+  "site_Name": "Merced River, East of Highway 59 Snelling Highway"
+ },
+ "523": {
+  "coordinates": [
+   -120.4357138,
+   37.4573169
+  ],
+  "site_Name": "Merced River, West of Snelling Road"
+ },
+ "524": {
+  "coordinates": [
+   -120.4357138,
+   37.4573169
+  ],
+  "site_Name": "Merced River, Ingalsbe Slough, West of Snelling Road"
+ },
+ "525": {
+  "coordinates": [
+   -120.5027189,
+   37.5138904
+  ],
+  "site_Name": "Ingalsbe Slough, Cox Ferry Road, Turlock Road"
+ },
+ "526": {
+  "coordinates": [
+   -120.4377905,
+   37.5193136
+  ],
+  "site_Name": "Merced River, Ingalsbe Slough, Snelling"
+ },
+ "527": {
+  "coordinates": [
+   -120.4211831,
+   37.5079247
+  ],
+  "site_Name": "Merced River, Allen Road"
+ },
+ "528": {
+  "coordinates": [
+   -120.4212357,
+   37.5228001
+  ],
+  "site_Name": "Merced River, Henderson Park"
+ },
+ "529": {
+  "coordinates": [
+   -120.4212357,
+   37.5228001
+  ],
+  "site_Name": "Merced River, Henderson Park, Merced Falls Road"
+ },
+ "530": {
+  "coordinates": [
+   -120.4654705,
+   37.4593818
+  ],
+  "site_Name": "Main Canal, Merced River"
+ },
+ "532": {
+  "coordinates": [
+   -120.333511,
+   37.524181
+  ],
+  "site_Name": "Merced Falls, Merced River"
+ },
+ "533": {
+  "coordinates": [
+   -115.5947443,
+   32.8750698
+  ],
+  "site_Name": "Main Canal, South of Robinson Road"
+ },
+ "534": {
+  "coordinates": [
+   -120.5607484,
+   37.3135517
+  ],
+  "site_Name": "Main Canal, Canal Creek"
+ },
+ "535": {
+  "coordinates": [
+   -121.0977491,
+   37.4804562
+  ],
+  "site_Name": "Main Canal, Edendale Creek"
+ },
+ "536": {
+  "coordinates": [
+   -120.4357138,
+   37.4573169
+  ],
+  "site_Name": "Main Canal, Snelling Road"
+ },
+ "537": {
+  "coordinates": [
+   -120.8374293,
+   37.613265
+  ],
+  "site_Name": "Main Canal, Yosemite Lake"
+ },
+ "600": {
+  "coordinates": [
+   -121.2282952,
+   37.6752143
+  ],
+  "site_Name": "Stanislaus River, Garden Road"
+ },
+ "700": {
+  "coordinates": [
+   -120.4438903,
+   37.6717768
+  ],
+  "site_Name": "Tuolumne River, San Joaquin River"
+ },
+ "701": {
+  "coordinates": [
+   -120.4438903,
+   37.6717768
+  ],
+  "site_Name": "Tuolumne River, Shiloh Bridge"
+ },
+ "702": {
+  "coordinates": [
+   -120.4438903,
+   37.6717768
+  ],
+  "site_Name": "Tuolumne River, Lower Lateral No 2"
+ },
+ "703": {
+  "coordinates": [
+   -121.0686235,
+   37.5838496
+  ],
+  "site_Name": "Tuolumne River, Adamsville State Historic Landmark"
+ },
+ "704": {
+  "coordinates": [
+   -121.0435994,
+   37.6103088
+  ],
+  "site_Name": "Tuolumne River, Riverdale Park"
+ },
+ "705": {
+  "coordinates": [
+   -121.2740045,
+   37.6401045
+  ],
+  "site_Name": "Tuolumne River, Dryden Park, Highway 132"
+ },
+ "706": {
+  "coordinates": [
+   -120.2568573,
+   38.0918662
+  ],
+  "site_Name": "Dry Creek, Tuolumne River"
+ },
+ "707": {
+  "coordinates": [
+   -121.594429,
+   36.898438
+  ],
+  "site_Name": "Tuolumne River, River Oaks"
+ },
+ "708": {
+  "coordinates": [
+   -120.8470271,
+   37.5687548
+  ],
+  "site_Name": "Tuolumne River, West of Geer Road"
+ },
+ "709": {
+  "coordinates": [
+   -120.8434342,
+   37.6189955
+  ],
+  "site_Name": "Tuolumne River, Fox Grove Park"
+ },
+ "710": {
+  "coordinates": [
+   -120.9513013,
+   37.6202581
+  ],
+  "site_Name": "Tuolumne River, East of McEwen Road"
+ },
+ "711": {
+  "coordinates": [
+   -120.7544967,
+   37.6378165
+  ],
+  "site_Name": "Tuolumne River, North Appling Road, East of Oakdale Waterford Highway"
+ },
+ "712": {
+  "coordinates": [
+   -120.4438903,
+   37.6717768
+  ],
+  "site_Name": "Tuolumne River, Dan Casey Slough"
+ },
+ "713": {
+  "coordinates": [
+   -120.6183182,
+   37.631476
+  ],
+  "site_Name": "Tuolumne River, West of Roberts Ferry Road"
+ },
+ "714": {
+  "coordinates": [
+   -120.5768354,
+   37.6104106
+  ],
+  "site_Name": "Turlock Lake, Tuolumne River"
+ },
+ "715": {
+  "coordinates": [
+   -120.5326976,
+   37.6307661
+  ],
+  "site_Name": "Tuolumne River, Rairden Gulch"
+ },
+ "716": {
+  "coordinates": [
+   -120.4963076,
+   37.6454882
+  ],
+  "site_Name": "Tuolumne River, Peaslee Creek, Basso Bridge"
+ },
+ "717": {
+  "coordinates": [
+   -120.4782451,
+   37.646381
+  ],
+  "site_Name": "Dawson Lake, Tuolumne River"
+ },
+ "718": {
+  "coordinates": [
+   -120.4440446,
+   37.673338
+  ],
+  "site_Name": "La Grange Reservoir, Tuolumne River"
+ },
+ "800": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Suisun Marsh Primary Management Area"
+ },
+ "810": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Suisun Marsh Secondary Management Area - 0"
+ },
+ "813": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Suisun Marsh Secondary Management Area - 1"
+ },
+ "815": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Suisun Marsh Secondary Management Area - 2"
+ },
+ "817": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Suisun Marsh Secondary Management Area - 3"
+ },
+ "820": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Suisun Marsh Secondary Management Area - 4"
+ },
+ "823": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Suisun Marsh Secondary Management Area - 5"
+ },
+ "826": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "Water Related Industry Reserve Area"
+ },
+ "828": {
+  "coordinates": [
+   -122.0723816,
+   38.0781856
+  ],
+  "site_Name": "Suisun Bay"
+ },
+ "832": {
+  "coordinates": [
+   -122.0496521,
+   38.1231376
+  ],
+  "site_Name": "Grizzley Bay"
+ },
+ "836": {
+  "coordinates": [
+   -121.9302449,
+   38.0689591
+  ],
+  "site_Name": "Honker Bay"
+ },
+ "840": {
+  "coordinates": [
+   -122.0102409,
+   38.0901963
+  ],
+  "site_Name": "Suisun Cutoff"
+ },
+ "842": {
+  "coordinates": [
+   -121.9738321,
+   39.6752077
+  ],
+  "site_Name": "Sac River"
+ },
+ "845": {
+  "coordinates": [
+   -120.8272698,
+   37.2813001
+  ],
+  "site_Name": "San Joaquin River"
+ },
+ "853": {
+  "coordinates": [
+   -121.9167286,
+   38.1285458
+  ],
+  "site_Name": "Montezuma Slough"
+ },
+ "855": {
+  "coordinates": [
+   -121.9126933,
+   38.1927577
+  ],
+  "site_Name": "Nurse Slough - W2"
+ },
+ "856": {
+  "coordinates": [
+   -121.905752,
+   38.2101812
+  ],
+  "site_Name": "Denverton Slough"
+ },
+ "857": {
+  "coordinates": [
+   -121.9275163,
+   38.2143386
+  ],
+  "site_Name": "Luco Slough"
+ },
+ "858": {
+  "coordinates": [
+   -121.9138873,
+   38.1815534
+  ],
+  "site_Name": "Little Honker Bay"
+ },
+ "860": {
+  "coordinates": [
+   -121.9458533,
+   38.179791
+  ],
+  "site_Name": "Cross Slough"
+ },
+ "861": {
+  "coordinates": [
+   -121.9390121,
+   38.1851582
+  ],
+  "site_Name": "Hasting Slough"
+ },
+ "862": {
+  "coordinates": [
+   -121.9561986,
+   38.1607172
+  ],
+  "site_Name": "Frost Slough - W"
+ },
+ "863": {
+  "coordinates": [
+   -122.0004456,
+   38.1721944
+  ],
+  "site_Name": "Tree Slough"
+ },
+ "864": {
+  "coordinates": [
+   -122.0156977,
+   38.1854336
+  ],
+  "site_Name": "Cuttoff Slough"
+ },
+ "865": {
+  "coordinates": [
+   -122.00929,
+   38.191078
+  ],
+  "site_Name": "Second Mallard Branch"
+ },
+ "866": {
+  "coordinates": [
+   -122.0309686,
+   38.2008156
+  ],
+  "site_Name": "First Mallard Branch"
+ },
+ "867": {
+  "coordinates": [
+   -122.0310022,
+   38.1860661
+  ],
+  "site_Name": "Cat Slough"
+ },
+ "868": {
+  "coordinates": [
+   -122.0303165,
+   38.1803024
+  ],
+  "site_Name": "Volanti Slough"
+ },
+ "870": {
+  "coordinates": [
+   -122.0544806,
+   38.1822628
+  ],
+  "site_Name": "Suisun Slough"
+ },
+ "871": {
+  "coordinates": [
+   -122.0504137,
+   38.1939088
+  ],
+  "site_Name": "Sheldrake Slough"
+ },
+ "872": {
+  "coordinates": [
+   -122.0548599,
+   38.2090882
+  ],
+  "site_Name": "Boynton Slough"
+ },
+ "873": {
+  "coordinates": [
+   -122.0436675,
+   38.2223258
+  ],
+  "site_Name": "Peytonia Slough"
+ },
+ "874": {
+  "coordinates": [
+   -122.0076703,
+   38.2245326
+  ],
+  "site_Name": "Hill Slough"
+ },
+ "875": {
+  "coordinates": [
+   -122.0681849,
+   38.1831754
+  ],
+  "site_Name": "Wells Slough"
+ },
+ "876": {
+  "coordinates": [
+   -122.0838563,
+   38.2438033
+  ],
+  "site_Name": "Chadbourne Slough"
+ },
+ "877": {
+  "coordinates": [
+   -122.0949666,
+   38.1696389
+  ],
+  "site_Name": "Frank Horan Slough"
+ },
+ "878": {
+  "coordinates": [
+   -122.1069112,
+   38.1676946
+  ],
+  "site_Name": "Ibis Cut"
+ },
+ "879": {
+  "coordinates": [
+   -122.1105111,
+   38.1753055
+  ],
+  "site_Name": "Cordelia Slough"
+ },
+ "880": {
+  "coordinates": [
+   -122.0960839,
+   38.1279603
+  ],
+  "site_Name": "Goodyear Slough"
+ },
+ "881": {
+  "coordinates": [
+   -121.9886489,
+   38.0922074
+  ],
+  "site_Name": "Norther Slough"
+ },
+ "882": {
+  "coordinates": [
+   -121.9740659,
+   38.0943218
+  ],
+  "site_Name": "Noyce Slough"
+ },
+ "883": {
+  "coordinates": [
+   -121.971891,
+   37.46866480000001
+  ],
+  "site_Name": "Mud Slough"
+ },
+ "884": {
+  "coordinates": [
+   -121.9595473,
+   38.0804428
+  ],
+  "site_Name": "Champion Slough"
+ },
+ "885": {
+  "coordinates": [
+   -121.9507506,
+   38.0966061
+  ],
+  "site_Name": "Roaring River Slough"
+ },
+ "886": {
+  "coordinates": [
+   -121.8877523,
+   39.3979424
+  ],
+  "site_Name": "Howard Slough"
+ },
+ "887": {
+  "coordinates": [
+   -119.4179324,
+   36.778261
+  ],
+  "site_Name": "W"
+ },
+ "888": {
+  "coordinates": [
+   -121.8924589,
+   38.0529754
+  ],
+  "site_Name": "Spoonbill Creek"
+ },
+ "900": {
+  "coordinates": [
+   -119.7571261,
+   36.906754
+  ],
+  "site_Name": "San Joaquin River, Temple Ranch"
+ },
+ "901": {
+  "coordinates": [
+   -120.4763439,
+   36.940271
+  ],
+  "site_Name": "San Joaquin River, Poso Canal"
+ },
+ "902": {
+  "coordinates": [
+   -120.8272698,
+   37.2813001
+  ],
+  "site_Name": "San Joaquin River, Poso Canal Company Headquarters, Arroyo Canal"
+ },
+ "903": {
+  "coordinates": [
+   -120.3840608,
+   36.8668926
+  ],
+  "site_Name": "San Joaquin River, Lone Willow Slough"
+ },
+ "904": {
+  "coordinates": [
+   -120.8272698,
+   37.2813001
+  ],
+  "site_Name": "San Joaquin River, Poso Canal, Columbia Canal"
+ },
+ "905": {
+  "coordinates": [
+   -119.7152978,
+   36.98694
+  ],
+  "site_Name": "San Joaquin River, Poso Farm"
+ },
+ "906": {
+  "coordinates": [
+   -120.4560072,
+   36.8588376
+  ],
+  "site_Name": "San Joaquin River, Firebaugh"
+ },
+ "907": {
+  "coordinates": [
+   -120.4422443,
+   36.8468751
+  ],
+  "site_Name": "San Joaquin River, Firebaugh, Lake Joallan"
+ },
+ "908": {
+  "coordinates": [
+   0,
+   0
+  ],
+  "site_Name": "San Joaquin River, Helm Ditch Rd"
+ },
+ "909": {
+  "coordinates": [
+   -120.3723876,
+   36.7879121
+  ],
+  "site_Name": "San Joaquin River, Mendota Dam"
+ },
+ "910": {
+  "coordinates": [
+   -120.3696134,
+   36.7841161
+  ],
+  "site_Name": "Fresno Slough, Whites Bridge"
+ },
+ "911": {
+  "coordinates": [
+   -120.4177609,
+   36.840845
+  ],
+  "site_Name": "San Joaquin River, Columbia Canal"
+ },
+ "912": {
+  "coordinates": [
+   -119.7571261,
+   36.906754
+  ],
+  "site_Name": "San Joaquin River, North San Mateo Road"
+ },
+ "913": {
+  "coordinates": [
+   -121.8427354,
+   38.0679749
+  ],
+  "site_Name": "San Joaquin River, Delta Mendota Boat Launch Facility"
+ },
+ "914": {
+  "coordinates": [
+   -119.7571261,
+   36.906754
+  ],
+  "site_Name": "San Joaquin River, North Napa Avenue"
+ },
+ "915": {
+  "coordinates": [
+   -120.8272698,
+   37.2813001
+  ],
+  "site_Name": "San Joaquin River, Gravelly Ford Drive, North Yuba Avenue"
+ },
+ "916": {
+  "coordinates": [
+   -120.8272698,
+   37.2813001
+  ],
+  "site_Name": "San Joaquin River, North Lake Avenue, Road 23"
+ },
+ "917": {
+  "coordinates": [
+   -119.7571261,
+   36.906754
+  ],
+  "site_Name": "San Joaquin River, Road 24"
+ },
+ "918": {
+  "coordinates": [
+   -120.0606285,
+   36.8204674
+  ],
+  "site_Name": "San Joaquin River, Skaggs Bridge"
+ },
+ "919": {
+  "coordinates": [
+   -120.8272698,
+   37.2813001
+  ],
+  "site_Name": "San Joaquin River, North Bishop Avenue, Road 30"
+ },
+ "920": {
+  "coordinates": [
+   -119.8473331,
+   36.8299751
+  ],
+  "site_Name": "San Joaquin River, West Sierra Avenue"
+ },
+ "921": {
+  "coordinates": [
+   -119.889404,
+   36.8369136
+  ],
+  "site_Name": "San Joaquin River, West Herndon Avenue"
+ },
+ "922": {
+  "coordinates": [
+   -119.7571261,
+   36.906754
+  ],
+  "site_Name": "San Joaquin River, Herndon Substation"
+ },
+ "923": {
+  "coordinates": [
+   -119.8762074,
+   36.7998255
+  ],
+  "site_Name": "San Joaquin River, North Milburn Avenue"
+ },
+ "924": {
+  "coordinates": [
+   -121.337811,
+   37.9703735
+  ],
+  "site_Name": "San Joaquin River, San Joaquin Country Club"
+ },
+ "925": {
+  "coordinates": [
+   -119.8384907,
+   36.8509635
+  ],
+  "site_Name": "San Joaquin River, Fig Garden Golf Club"
+ },
+ "927": {
+  "coordinates": [
+   -119.7918139,
+   36.8763379
+  ],
+  "site_Name": "San Joaquin River, Lanes Bridge"
+ },
+ "928": {
+  "coordinates": [
+   -119.7375367,
+   36.9658272
+  ],
+  "site_Name": "Ledger Island, San Joaquin River, Lost Lake Recreation Area"
+ },
+ "929": {
+  "coordinates": [
+   -119.7276367,
+   36.9773748
+  ],
+  "site_Name": "Friant, San Joaquin River, Lost Lake Recreation Area, Friant Dam, Millerton Lake"
+ }
 }

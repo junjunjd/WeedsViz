@@ -10,8 +10,10 @@ import gmplot
 from time import sleep
 import matplotlib
 
+# convert treatment log files to geojson data
+
 SITES = 'data/DBW_data.csv'
-SITE_DICT = 'site_dict_new.json'
+SITE_DICT = 'site_dict.json'
 
 site_dict = json.load(open(SITE_DICT))
 
@@ -28,10 +30,10 @@ site_dict = json.load(open(SITE_DICT))
 dateparse = lambda x: pd.datetime.strptime(x, '%m/%d/%y')
 
 def get_sites(sitefile: str = SITES):
-    """Get the site data in a DataFrame.
+    """Get the herbicide application log data in a DataFrame.
 
-    :param sitefile: Path to the file with site IDs and acreage
-    :return: A DataFrame with the SITEID and Site_Name for each site
+    :param sitefile: Path to the file with site IDs, treatment dates and herbicide used
+    :return: A DataFrame with the SITEID, Site_Name and treatment variables for each site
     :rtype: pandas.DataFrame
     """
     df = pd.read_csv(sitefile, parse_dates=['Date'], date_parser=dateparse)
@@ -47,14 +49,14 @@ for d in sites.itertuples(index=False):
     year = year + [d.Date.year]
     
 
-sites['Year'] = year
+sites['Year'] = year      # add a new year column
 
-treat_count_by_year = sites.groupby('Year')['SiteID'].value_counts()
+treat_count_by_year = sites.groupby('Year')['SiteID'].value_counts()   # count how many times a site is treated in each year
 
-Glyphosate_by_site_year = sites.groupby(['Year','SiteID'])['gal_Glyphosate'].sum()
-D24_by_site_year = sites.groupby(['Year','SiteID'])['gal_D'].sum()
-Glyphosate_acre_by_site_year = sites.groupby(['Year','SiteID'])['acres_Glyphosate'].sum()
-D24_acre_by_site_year = sites.groupby(['Year','SiteID'])['acres_D'].sum()
+Glyphosate_by_site_year = sites.groupby(['Year','SiteID'])['gal_Glyphosate'].sum()    # count the total gallons of Glyphosate used on a site in each year
+D24_by_site_year = sites.groupby(['Year','SiteID'])['gal_D'].sum()    # count the total gallons of 24-D used on a site in each year
+Glyphosate_acre_by_site_year = sites.groupby(['Year','SiteID'])['acres_Glyphosate'].sum()    # count the total acreage of a site that applied Glyphosate in each year
+D24_acre_by_site_year = sites.groupby(['Year','SiteID'])['acres_D'].sum()   # count the total acreage of a site that applied Glyphosate in each year
 
 print("count by year /////////////////////////////", list(treat_count_by_year))
 
@@ -76,9 +78,9 @@ geojson = {
                 "type": "Point",
                 "coordinates": [site_dict.get(str(m[1]), "Site Name Not Found")['coordinates'][0],site_dict.get(str(m[1]), "Site Name Not Found")['coordinates'][1]],
             },
-        } for m, n in treat_count_by_year.items()]
+        } for m, n in treat_count_by_year.items()]    #  returns an iterable tuple (index, value)
 }
 
 
-output = open('treat_count_by_year1.json', 'w')
+output = open('treat_count_by_year_popup.json', 'w')
 json.dump(geojson, output, indent=1) 
